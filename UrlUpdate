@@ -1,11 +1,11 @@
 {
-  "Version": "5.6.0",
+  "Version": "1.0.0",
   "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
-  "UrlUpdate": "https://idsocialmedia.github.io/iplavpsbr.xyz.github.io/UrlUpdate",
-  "Sms": "https://idsocialmedia.github.io/iplavpsbr.xyz.github.io/UrlSms",
-  "EmailFeedback": "ip290996@gmail.com",
+  "UrlUpdate": "https://github.com/wanderson450/wfnet/UrlUpdate",
+  "Sms": "https://github.com/wanderson450/wfnet/UrlSms",
+  "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
   "UrlContato": "",
-  "UrlTermos": "https://idsocialmedia.github.io/iplavpsbr.xyz.github.io/termos.html",
+  "UrlTermos": "https://github.com/wanderson450/wfnet/termos.html",
   "CheckUser": "true",
     "Udp": [
     {
