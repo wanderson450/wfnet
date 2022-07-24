@@ -4,7 +4,7 @@
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
-  "UrlContato": "https://api.whatsapp.com/send?phone=5594991659989&text=Internet%20Ilimitada",
+  "UrlContato": "",
   "UrlTermos": "https://wanderson450.github.io/wfnet/termos.html",
   "CheckUser": "true",
     "Udp": [
