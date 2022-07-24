@@ -1,11 +1,11 @@
 {
   "Version": "1.0.1",
   "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
-  "UrlUpdate": "https://github.com/wanderson450/wfnet/blob/main/UrlUpdate",
-  "Sms": "https://github.com/wanderson450/wfnet/blob/main/UrlSms",
+  "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
+  "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
   "UrlContato": "https://api.whatsapp.com/send?phone=5594991659989&text=Internet%20Ilimitada",
-  "UrlTermos": "https://github.com/wanderson450/wfnet/termos.html",
+  "UrlTermos": "https://wanderson450.github.io/wfnet/termos.html",
   "CheckUser": "true",
     "Udp": [
     {
