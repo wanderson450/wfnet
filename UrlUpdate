@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -220,16 +220,6 @@
    "Info": "Tlsws"
 
   },
-  {
-      "Name": "🔴CLARO TESTE 1",
-      "FLAG": "claro",
-      "Payload": "GET wss://cdn.w3.org HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "cdn.w3.org",
-      "TlsIP": "cdn.w3.org",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
     {
       "Name": "REIDAVPN CLARO ATUALIZADO 1",
       "FLAG": "claro",
@@ -340,46 +330,56 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
-  {  
-      "Name": "🇧🇷CLARO 1🌍", 
-      "FLAG": "claro", 
-      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "ct.livestream.com", 
-      "TlsIP": "ct.livestream.com", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
-    }, 
-    { 
-      "Name": "🇧🇷CLARO 2🌍", 
-      "FLAG": "claro", 
-      "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "uploads.api.new.livestream.com", 
-      "TlsIP": "uploads.api.new.livestream.com", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
-    }, 
-    { 
-      "Name": "🇧🇷CLARO 3🌍", 
-      "FLAG": "claro", 
-      "Payload": "GET wss://lp.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "lp.livestream.com", 
-      "TlsIP": "lp.livestream.com", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
-    }, 
-    { 
-      "Name": "🇧🇷CLARO 🌍", 
-      "FLAG": "claro", 
-      "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "vimeo.livestream.com", 
-      "TlsIP": "vimeo.livestream.com", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
+  {
+      "Name": "🔴CLARO novo",
+      "FLAG": "claro",
+      "Payload": "GET wss://cdn.w3.org HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cdn.w3.org",
+      "TlsIP": "cdn.w3.org",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
+  {
+"Name": "🔴CLARO 8 novo",
+"FLAG": "claro",
+"Payload": "GET wss://forestalrioclaro.cl HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+"SNI": "forestalrioclaro.cl",
+"TlsIP": "forestalrioclaro.cl",
+"ProxyIP": "",
+"ProxyPort": "",
+"Info": "Tlsws"
+},
+{
+"Name": "🔴CLARO 9 novo",
+"FLAG": "claro",
+"Payload": "GET wss://mundialdemetales.comr HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+"SNI": "mundialdemetales.com",
+"TlsIP": "mundialdemetales.com",
+"ProxyIP": "",
+"ProxyPort": "",
+"Info": "Tlsws"
+},
+{
+"Name": "🔴CLARO 10 novo",
+"FLAG": "claro",
+"Payload": "GET wss://claroseguro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+"SNI": "claroseguro.com.br",
+"TlsIP": "162.215.219.7",
+"ProxyIP": "",
+"ProxyPort": "",
+"Info": "Tlsws"
+},
+{
+"Name": "🔴CLARO 11 novo",
+"FLAG": "claro",
+"Payload": "GET ssl://hostedc76.carrierzone.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws [crlf][crlf]",
+"SNI": "falsamemoria.cl",
+"TlsIP": "hostedc76.carrierzone.com",
+"ProxyIP": "hostedc76.carrierzone.com",
+"ProxyPort": "443",
+"Info": "Tlsws"
+},
     {
       "Name": "💛OI [SSL 1]",
       "FLAG": "oi",
