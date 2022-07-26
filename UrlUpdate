@@ -220,6 +220,16 @@
    "Info": "Tlsws"
 
   },
+  {
+      "Name": "🔴CLARO TESTE 1",
+      "FLAG": "claro",
+      "Payload": "GET wss://cdn.w3.org HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cdn.w3.org",
+      "TlsIP": "cdn.w3.org",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
     {
       "Name": "REIDAVPN CLARO ATUALIZADO 1",
       "FLAG": "claro",
