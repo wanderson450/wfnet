@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -546,16 +546,6 @@
       "Payload": "GET wss://uploads.api.new.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "uploads.api.new.livestream.com",
       "TlsIP": "api.new.livestream.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {  
-      "Name": "❤️CLARO SSL 13",
-      "FLAG": "claro",
-      "Payload": "GET ssl://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
