@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.9",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO TIM NEW 🟢",
+  "Version": "1.1.0",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO TOTAL 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -79,73 +79,83 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-    {
-      "Name": "🟣VIVO TESTE DDD 94",
+  {
+      "Name": "🟣VIVO TOTAL 1",
       "FLAG": "vivo",
-      "Payload": "GET wss://support.deezer.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive [crlf][crlf]",
-      "SNI": "support.deezer.com",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣VIVO 2 TESTE DDD 94",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: o4rxtq4dyy.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "planosvivointernet.com.br",
+      "ProxyIP": "o4rxtq4dyy.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO NEW 🟣 1",
+      "Name": "🟣VIVO TOTAL 2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: yhbzlwlwmi.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.21.11.51",
+      "ProxyIP": "yhbzlwlwmi.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "REIDAVPN 🚀VIVO 1",
+      "Name": "🟣VIVO TOTAL 3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "",
-     "Info": "Tlsws"
-    },
-    {
-      "Name": "REIDAVPN 🚀VIVO 2",
-      "FLAG": "vivo",
-      "Payload": "GET ssl://gedoc.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-     "Name": "REIDAVPN 🚀VIVO 3",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: zxsobnupv4.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.21.11.51",
+      "ProxyIP": "zxsobnupv4.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-    {                                                                                                                                                                   
-      "Name": "REIDAVPN 🚀VIVO 4",
+    {
+      "Name": "🟣VIVO TOTAL 4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gxh8wj3g26.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "[app_host]",
-      "ProxyIP": "172.67.165.43",
+      "TlsIP": "",
+      "ProxyIP": "gxh8wj3g26.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟣VIVO TOTAL 5",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cjvx3sje66.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "cjvx3sje66.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟣VIVO TOTAL 6",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: zh1sui7rcq.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "zh1sui7rcq.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟣VIVO TOTAL 7",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: v549ponh1p.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "v549ponh1p.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟣VIVO TOTAL 8",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: ofekonffpt.map.azionedge.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "ofekonffpt.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
