@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.1",
+  "Version": "1.2.2",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -25,17 +25,6 @@
     }
   ],
   "Servers": [
-    {
-      "Name": "SERVIDOR BR 1 | PLUS",
-      "TYPE": "Premium",
-      "FLAG": "br.png",
-      "ServerIP": "wfnet.xyz",
-      "CheckUser": "http://209.14.68.56:5000/checkUser",
-      "ServerPort": "443",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
     {
       "Name": "SERVIDOR BR 1 | PLUS",
       "TYPE": "Premium",
