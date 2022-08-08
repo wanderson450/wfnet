@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.8",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO - TIM X 🟢",
+  "Version": "1.1.9",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -127,8 +127,7 @@
       "TlsIP": "104.16.53.91",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
-      
+      "Info": "Tlsws"    
  }
   ]
 }
