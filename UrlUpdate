@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.0",
+  "Version": "1.3.1",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -64,7 +64,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d2yzdwed6cgwlz.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "planosvivointernet.com.br",
+      "ProxyIP": "52.85.213.82",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
