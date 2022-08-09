@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.3",
+  "Version": "1.2.4",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -91,7 +91,7 @@
     {
       "Name": "🔴claro 01 WF",
       "FLAG": "claro",
-      "Payload": "GET ssl://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",,
+      "Payload": "GET ssl://ipv4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "ipv4.icanhazip.com",
       "TlsIP": "ipv4.icanhazip.com",
       "ProxyIP": "",
