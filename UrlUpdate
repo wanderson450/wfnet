@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.8",
+  "Version": "1.2.9",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -128,7 +128,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
    },
-   
     {
       "Name": "🔵 TIM 07 NOVO WF ",
       "FLAG": "tim",
@@ -240,6 +239,7 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+    }
     "Nome": "CLARO TESTE NOVO 1",
       "BANDEIRA": "vivo",
       "Payload": "GET nets4.com/HTTP/1.1[crlf]Host : [app_host][crlf]Upgrade: websocket[crlf][crlf]",
