@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.5",
+  "Version": "1.2.6",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -540,5 +540,5 @@
       "ProxyPort": "443", 
       "Info": "Tlsws" 
    }
-  ]
+  ],
 }
