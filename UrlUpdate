@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.6",
+  "Version": "1.3.7",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO TIM 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -68,7 +68,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-     {      
+     {    
          "Name":"🔵TIM NOVA - 01🔵",
          "FLAG":"tim",
          "Payload":"GET wss://cdn.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -117,6 +117,7 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+      },
     {
       "Name": "🔵TIM",
       "FLAG": "tim",
