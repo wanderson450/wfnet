@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.3",
+  "Version": "1.3.4",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO TIM 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -68,6 +68,26 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    {
+      "Name": "🔵TIM NOVO WF",
+      "FLAG": "tim",
+      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: mentalista[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "www.alura.com.br",
+      "ProxyIP": "www.alura.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+    "Name":"🔵TIM NOVO WF",
+         "FLAG":"tim",
+         "Payload":"GET wss://cdn.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+         "SNI":"cdn.c6bank.com.br",
+         "TlsIP":"104.16.236.16",
+         "ProxyIP":"",
+         "ProxyPort":"443",
+         "Info":"Tlsws"
+         },
      {
       "Name": "🔵TIM NOVO WF",
       "FLAG": "tim",
@@ -129,7 +149,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵 TIM 04 NOVO WF",
+      "Name": "🔵 TIM 04 WF",
       "FLAG": "tim",
       "Payload": "GET wss://texugo.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "texugo.alura.com.br",
@@ -139,7 +159,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵 TIM 05 NOVO WF",
+      "Name": "🔵 TIM 05 WF",
       "FLAG": "tim",
       "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "blog.alura.com.br",
@@ -149,7 +169,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵 TIM 06 NOVO WF",
+      "Name": "🔵 TIM 06 WF",
       "FLAG": "tim",
       "Payload": "GET wss://empresas.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "empresas.alura.com.br",
@@ -159,7 +179,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵 TIM 07 NOVO WF ",
+      "Name": "🔵 TIM 07 WF ",
       "FLAG": "tim",
       "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.alura.com.br",
@@ -260,7 +280,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵 TIM 17 NOVO NEW",
+      "Name": "🔵 TIM 17 NEW",
       "FLAG": "tim",
       "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.alura.com.br",
