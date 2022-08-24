@@ -1,6 +1,6 @@
 {
   "Version": "1.3.7",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO TIM 🟢",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -67,7 +67,46 @@
       "ProxyIP": "52.85.213.82",
       "ProxyPort": "80",
       "Info": "Proxy"
+    { 
+      "Name": "🟣VIVO 01",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vivorio.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "vivorio.com.br",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
+    { 
+      "Name": "🟣VIVO 02",
+      "FLAG": "vivo",
+      "Payload": "GET wss://selectra.net.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "selectra.net.br",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    { 
+      "Name": "🟣VIVO 03", 
+      "FLAG": "vivo", 
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: [app_host][crlf]X-Online-Host: gprs.digitel.com.ve[crlf]X-Forwarded-For: gprs.digitel.com.ve[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]", 
+      "SNI": "44.195.198.180", 
+      "TlsIP": "", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "tlsws" 
+    }, 
+    { 
+      "Name": "🟣VIVO 04", 
+      "FLAG": "vivo", 
+      "Payload": "GET wss://xvideos.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]", 
+      "SNI": "xvideos.com", 
+      "TlsIP": "104.18.6.80", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "proxy"
+      },
      {    
          "Name":"🔵TIM NOVA - 01🔵",
          "FLAG":"tim",
