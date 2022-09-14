@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.509",
+  "Version": "1.4.510",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -198,6 +198,7 @@
       "ProxyIP": "", 
       "ProxyPort": "443", 
       "Info": "Tlsws" 
+      },
       {
             "Name": "OI 🟡",
             "FLAG": "oi",
