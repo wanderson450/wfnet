@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5",
+  "Version": "1.4.50",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -128,86 +128,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    {
-      "Name": "🔵 TIM 15 BRASIL NEW",
-      "FLAG": "tim",
-      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: mentalista[crlf][crlf]",
-      "SNI": "www.alura.com.br",
-      "TlsIP": "www.alura.com.br",
-      "ProxyIP": "www.alura.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-      {
-      "Name": "🔵TIM [01]",
-      "FLAG": "tim",
-      "Payload": "GET wss://texugo.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "texugo.alura.com.br",
-      "TlsIP": "texugo.alura.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-     {
-      "Name": "🔵TIM [02]",
-      "FLAG": "tim",
-      "Payload": "GET wss://empresas.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "blog.alura.com.br",
-      "TlsIP": "blog.alura.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "🔵TIM [03]",
-      "FLAG": "tim",
-      "Payload": "GET wss://materiais.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "materiais.alura.com.br",
-      "TlsIP": "materiais.alura.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "🔵TIM [04]",
-      "FLAG": "tim",
-      "Payload": "GET wss://qa.timbancavirtual.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.timbancavirtual.com.br",
-      "TlsIP": "www.timbancavirtual.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "🔵TIM [05]",
-      "FLAG": "tim",
-      "Payload": "GET wss://ajuda.c6bank.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "ajuda.c6bank.com.br",
-      "TlsIP": "ajuda.c6bank.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "🔵TIM [06]",
-      "FLAG": "tim",
-      "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "bobcontents.bennuapp.com.br",
-      "TlsIP": "bobcontents.bennuapp.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "🔵TIM [07]",
-      "FLAG": "tim",
-      "Payload": "GET wss://api-tim.oston.io  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "api-tim.oston.io",
-      "TlsIP": "api-tim.oston.io",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
    { 
       "Name": "🐉 Oi. 1", 
       "FLAG": "oi", 
