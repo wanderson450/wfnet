@@ -68,36 +68,6 @@
       "ProxyPort": "80",
       "Info": "Proxy"
      },
-       {
-      "Name": "🟣VIVO [01]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: xxx.devastadordeinternet.ml[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "",
-      "ProxyIP": "172.67.165.43",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣VIVO [02]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: xxx.devastadordeinternet.ml[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "",
-      "ProxyIP": "104.16.122.175",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣VIVO [03]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: xxx.devastadordeinternet.ml[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "",
-      "ProxyIP": "104.21.11.51",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
     {
       "Name": "🔵TIM NOVA - 05🔵",
       "FLAG": "tim",
