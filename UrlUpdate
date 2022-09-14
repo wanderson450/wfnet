@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.505",
+  "Version": "1.4.506",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -187,6 +187,65 @@
       "ProxyIP": "", 
       "ProxyPort": "443", 
       "Info": "Tlsws" 
+      {
+            "Name": "OI 🟡",
+            "FLAG": "oi",
+            "Payload": "GET wss://sso.hotjar.com HTTP/1.1[crlf]Host: [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+            "SNI": "sso.hotjar.com",
+            "TlsIP": "104.18.244.88",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "OI 🟡",
+            "FLAG": "oi",
+            "Payload": "GET wss://sso.hotjar.com HTTP/1.1[crlf]Host: [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+            "SNI": "sso.hotjar.com",
+            "TlsIP": "104.16.96.94",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "OI 🟡",
+            "FLAG": "oi",
+            "Payload": "GET wss://help-staging.hotjar.com HTTP/1.1[crlf]Host: [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+            "SNI": "help-staging.hotjar.com",
+            "TlsIP": "104.21.89.212",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "OI 🟡",
+            "FLAG": "oi",
+            "Payload": "GET wss://help-staging.hotjar.com HTTP/1.1[crlf]Host: [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+            "SNI": "help-staging.hotjar.com",
+            "TlsIP": "172.67.147.91",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "OI 🟡",
+            "FLAG": "oi",
+            "Payload": "GET wss://help.hotjar.com HTTP/1.1[crlf]Host: [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+            "SNI": "help.hotjar.com",
+            "TlsIP": "172.67.33.185",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "OI 🟡",
+            "FLAG": "oi",
+            "Payload": "GET wss://help.hotjar.com HTTP/1.1[crlf]Host: [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+            "SNI": "help.hotjar.com",
+            "TlsIP": "162.159.135.42",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
    }
   ]
 }
