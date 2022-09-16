@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.527",
+  "Version": "1.4.528",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -68,6 +68,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    {
      "Name": "🟣VIVO 4 CLOUDFRONT",
      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d2on6kmqm0i4g.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
