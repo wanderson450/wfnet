@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.519",
+  "Version": "1.4.520",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -36,30 +36,6 @@
       "USER": "",
       "PASS": ""
     },
-  ],
-  "Networks": [
- {
-      "Name": "SERVIDOR BR 1 | PLUS",
-      "TYPE": "Premium",
-      "FLAG": "br.png",
-      "ServerIP": "pitbullnet.online",
-      "CheckUser": "http://pitbullnet.online:5000/checkUser",
-      "ServerPort": "443",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR BR 2 | PLUS",
-      "TYPE": "Premium",
-      "FLAG": "br.png",
-      "ServerIP": "pitbullnet.online",
-      "CheckUser": "http://pitbullnet.online:5000/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    }
   ],
   "Networks": [
      {
