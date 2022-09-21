@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.529",
+  "Version": "1.4.530",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -317,7 +317,9 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-      "Name": "CLARO 04 ",
+      },
+     {
+     "Name": "CLARO 04 ",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
