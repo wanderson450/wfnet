@@ -79,7 +79,7 @@
       "Info": "Proxy"
    },
     {
-      "Name": "🟣VIVO 5",
+      "Name": "🟣VIVO OPÇÃO 5",
       "FLAG": "vivo",
       "Payload": "GET ws://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -89,7 +89,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO 6",
+      "Name": "🟣VIVO OPÇÃO 6",
       "FLAG": "vivo",
       "Payload": "GET ws://planos.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "planos.vivo.com.br",
@@ -99,7 +99,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO 7",
+      "Name": "🟣VIVO OPÇÃO 7",
       "FLAG": "vivo",
       "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
