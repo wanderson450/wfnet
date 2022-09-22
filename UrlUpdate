@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.534",
+  "Version": "1.4.535",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -79,7 +79,7 @@
       "Info": "Proxy"
    },
     {
-      "Name": "🟣VIVO 4",
+      "Name": "🟣VIVO 5",
       "FLAG": "vivo",
       "Payload": "GET ws://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -89,7 +89,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO 4",
+      "Name": "🟣VIVO 6",
       "FLAG": "vivo",
       "Payload": "GET ws://planos.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "planos.vivo.com.br",
@@ -99,7 +99,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO 4",
+      "Name": "🟣VIVO 7",
       "FLAG": "vivo",
       "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
@@ -149,7 +149,7 @@
       "Info": "Tlsws"
     },
    {
-      "Name": "🔵TIM OPÇÃO 01",
+      "Name": "🔵TIM OPÇÃO 05",
       "FLAG": "tim",
       "Payload": "GET wss://auth.of.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "auth.of.c6bank.com.br",
@@ -159,7 +159,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM OPÇÃO 01",
+      "Name": "🔵TIM OPÇÃO 06",
       "FLAG": "tim",
       "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "assets-sf.c6bank.com.br",
@@ -169,7 +169,7 @@
       "Info": "Tlsws"
 },
 {
-      "Name": "💙 TIM Sempre",
+      "Name": "🔵TIM OPÇÃO 07",
       "FLAG": "tim",
       "Payload": "GET wss://cdn.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "cdn.c6bank.com.br",
@@ -179,7 +179,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM OPÇÃO 01",
+      "Name": "🔵TIM OPÇÃO 08",
       "FLAG": "tim",
       "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
       "SNI": "",
@@ -189,7 +189,7 @@
       "Info": "Proxy"
       },
        {
-       "Name": "🔵TIM OPÇÃO 01",
+       "Name": "🔵TIM OPÇÃO 09",
       "FLAG": "tim",
       "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
       "SNI": "",
@@ -199,7 +199,7 @@
       "Informações": "Proxy"
       },
      {
-    "Name": "🔵TIM OPÇÃO 01",
+    "Name": "🔵TIM OPÇÃO 10",
    "FLAG": "tim",
    "Payload": "GET ws://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "bam.nr-data.net",
@@ -209,7 +209,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "🔵TIM OPÇÃO 01",
+   "Name": "🔵TIM OPÇÃO 11",
    "FLAG": "tim",
    "Payload": "GET ws://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "bam.nr-data.net",
@@ -219,7 +219,7 @@
    "Info": "Tlsws"
    },
   {
-   "Name": "🔵TIM OPÇÃO 01",
+   "Name": "🔵TIM OPÇÃO 12",
    "FLAG": "tim",
    "Payload": "GET ws://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "ajuda.c6bank.com.br",
@@ -229,7 +229,7 @@
    "Info": "Tlsws"
    },
      {
-      "Name": "🔵TIM OPÇÃO 01",
+      "Name": "🔵TIM OPÇÃO 13",
       "FLAG": "tim",
       "Payload": "HTTP/ [crlf][crlf]|[crlf]",
       "SNI": "",
