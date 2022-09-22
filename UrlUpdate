@@ -270,6 +270,96 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "?TIM CLOUD",
+      "FLAG": "tim",
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Tlsws"
+   },
+  {
+      "Name": "💙 TIM Agora",
+      "FLAG": "tim",
+      "Payload": "GET wss://auth.of.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "auth.of.c6bank.com.br",
+      "TlsIP": "172.64.144.237",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "💙 TIM Sucesso",
+      "FLAG": "tim",
+      "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "assets-sf.c6bank.com.br",
+      "TlsIP": "104.16.237.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+{
+      "Name": "💙 TIM Sempre",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdn.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cdn.c6bank.com.br",
+      "TlsIP": "104.16.236.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM testeee",
+      "FLAG": "tim",
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+       {
+       "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Informações": "Proxy"
+      },
+     {
+    "Name": "TIM - TORRE 1",
+   "FLAG": "tim",
+   "Payload": "GET ws://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "bam.nr-data.net",
+   "TlsIP": "162.247.241.14",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "TIM - TORRE 2",
+   "FLAG": "tim",
+   "Payload": "GET ws://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "bam.nr-data.net",
+   "TlsIP": "bam.nr-data.net.cdn.cloudflare.net",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+   },
+  {
+   "Name": "TIM - TORRE 3",
+   "FLAG": "tim",
+   "Payload": "GET ws://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "ajuda.c6bank.com.br",
+   "TlsIP": "104.16.236.16",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+   },
+    {
       "Name": "VIVO E TIM 01 BIONAREDE",
       "FLAG": "vivo",
       "Payload": "GET ws://bionarede.crbio04.gov.br/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
