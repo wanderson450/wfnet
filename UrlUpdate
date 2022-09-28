@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.537",
+  "Version": "1.4.538",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -125,13 +125,6 @@
        "ProxyPort": "443",
        "Informações": "Tlsws"
        },
-    {
-     "name": "TIM LOGIN 02",
-     "host": "static.r4you.co",
-      "port": 443,
-      "payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
-      "sni": "static.r4you.co"
-    },
    {
     "Name": "TIM LOGIN 03",
       "FLAG": "tim",
