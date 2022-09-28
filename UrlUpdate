@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.543",
+  "Version": "1.4.544",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -118,16 +118,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
       },
-      {  
-      "Name": "TIM LOGUIN 05",  
+       {  
+      "Name": "TIM LOGUIN 06",  
       "FLAG": "tim",  
       "Payload": GET / HTTP/1.1[crlf]Host: SUACLOUDFRONT[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
       "SNI": "",  
-      "TlsIP": "imagens.mobiaccess.com.br",  
-       "ProxyIP": "imagens.mobiaccess.com.br",  
-       "ProxyPort": "443",  
-       "Info": "Tlsws"  
-      },
+      "TlsIP": "",  
+      "ProxyIP": "imagens.mobiaccess.com.br",  
+      "ProxyPort": "443",  
+      "Info": "Tlsws"  
+       }, 
    { 
       "Name": "🟡 Oi OPÇÃO 01", 
       "FLAG": "oi", 
