@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.539",
+  "Version": "1.4.540",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -108,8 +108,7 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    
-        {
+     {
         "Nome": "TIM LOGIN 01",
        "BANDEIRA": "tim",
        "Payload": "GET / HTTP/1.1[crlf]Host: jj.getnetgroup.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
@@ -119,66 +118,6 @@
        "ProxyPort": "443",
        "Informações": "Tlsws"
        },
-   {
-    "Name": "TIM LOGIN 03",
-      "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "[app_host]",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      Name": "TIM LOGUIN 04", 
-      "FLAG": "tim", 
-      "Payload": "GET wss://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: jj.getnetgroup.online[crlf]Upgrade: WebSocket[crlf][crlf]", 
-      "SNI": "ajuda.c6bank.com.br", 
-      "TlsIP": "104.16.236.16", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-      },
-      {  
-      "Name": "TIM LOGUIN 05",  
-      "FLAG": "tim",  
-      "Payload": GET / HTTP/1.1[crlf]Host: SUACLOUDFRONT[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
-      "SNI": "",  
-      "TlsIP": "imagens.mobiaccess.com.br",  
-       "ProxyIP": "imagens.mobiaccess.com.br",  
-       "ProxyPort": "443",  
-       "Info": "Tlsws"  
-      }, 
-      {  
-      "Name": "TIM LOGUIN 06",  
-      "FLAG": "tim",  
-        "Payload": GET / HTTP/1.1[crlf]Host: SUACLOUDFRONT[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
-          "SNI": "",  
-          "TlsIP": "",  
-            "ProxyIP": "imagens.mobiaccess.com.br",  
-               "ProxyPort": "443",  
-                 "Info": "Tlsws"  
-       }, 
-{ 
-      "Name": "TIM LOGUIN 07", 
-      "FLAG": "tim", 
-      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
-      "SNI": "cdn.jsdelivr.net", 
-      "TlsIP": "cdn.jsdelivr.net", 
-      "ProxyIP": "cdn.jsdelivr.net", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
-    }, 
-{ 
-      "Name": "TIM LOGUIN 08", 
-      "FLAG": "tim", 
-      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
-      "SNI": "cdn.jsdelivr.net", 
-      "TlsIP": "104.16.85.20", 
-      "ProxyIP": "104.16.85.20", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
-    },
    { 
       "Name": "🟡 Oi OPÇÃO 01", 
       "FLAG": "oi", 
