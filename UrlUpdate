@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.541",
+  "Version": "1.4.542",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -127,6 +127,16 @@
       "ProxyIP": "[app_host]",
       "ProxyPort": "80",
       "Info": "Proxy"
+      },
+      {
+       Name": "TIM LOGUIN 04", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: jj.getnetgroup.online[crlf]Upgrade: WebSocket[crlf][crlf]", 
+      "SNI": "ajuda.c6bank.com.br", 
+      "TlsIP": "104.16.236.16", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws"
       },
    { 
       "Name": "🟡 Oi OPÇÃO 01", 
