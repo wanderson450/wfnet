@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.536",
+  "Version": "1.4.537",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -108,136 +108,90 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    {
-      "Name": "🔵TIM OPÇÃO 01",
-      "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-      },
      {
-      "Name": "🔵TIM OPÇÃO 02",
-      "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: Websocket\r\nConnection: Keep-Alive\r\n\r\n",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "bam.nr-data.net",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
+        "name": "🟣VIVO OPÇÃO 8",
+        "host": "gedoc.vivo.com.br",
+        "port": 443,
+        "payload": "GET wss://gedoc.vivo.com.br  HTTP/1.1[crlf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
+        "sni": "gedoc.vivo.com.br"
+        },
+        {
+        "Nome": "TIM LOGIN 01",
+       "BANDEIRA": "tim",
+       "Payload": "GET / HTTP/1.1[crlf]Host: jj.getnetgroup.online[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+       "SNI": "cursolivre.ampli.com.br",
+       "TlsIP": "cursolivre.ampli.com.br",
+       "ProxyIP": "cursolivre.ampli.com.br",
+       "ProxyPort": "443",
+       "Informações": "Tlsws"
+       },
     {
-    "Name": "🔵TIM OPÇÃO 03",
-      "FLAG": "tim",
-      "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "api-tim.oston.io",
-      "TlsIP": "104.21.58.67",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-    "Name": "🔵TIM OPÇÃO 04",
-      "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+     "name": "TIM LOGIN 02",
+     "host": "static.r4you.co",
+      "port": 443,
+      "payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": "static.r4you.co"
     },
    {
-      "Name": "🔵TIM OPÇÃO 05",
+    "Name": "TIM LOGIN 03",
       "FLAG": "tim",
-      "Payload": "GET wss://auth.of.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "auth.of.c6bank.com.br",
-      "TlsIP": "172.64.144.237",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM OPÇÃO 06",
-      "FLAG": "tim",
-      "Payload": "GET wss://assets-sf.c6bank.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "assets-sf.c6bank.com.br",
-      "TlsIP": "104.16.237.16",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-},
-{
-      "Name": "🔵TIM OPÇÃO 07",
-      "FLAG": "tim",
-      "Payload": "GET wss://cdn.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "cdn.c6bank.com.br",
-      "TlsIP": "104.16.236.16",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM OPÇÃO 08",
-      "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "[app_host]",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
-       {
-       "Name": "🔵TIM OPÇÃO 09",
-      "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "[app_host]",
-      "ProxyPort": "80",
-      "Informações": "Proxy"
-      },
-     {
-    "Name": "🔵TIM OPÇÃO 10",
-   "FLAG": "tim",
-   "Payload": "GET ws://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "bam.nr-data.net",
-   "TlsIP": "162.247.241.14",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  },
-  {
-   "Name": "🔵TIM OPÇÃO 11",
-   "FLAG": "tim",
-   "Payload": "GET ws://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "bam.nr-data.net",
-   "TlsIP": "bam.nr-data.net.cdn.cloudflare.net",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-  {
-   "Name": "🔵TIM OPÇÃO 12",
-   "FLAG": "tim",
-   "Payload": "GET ws://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "ajuda.c6bank.com.br",
-   "TlsIP": "104.16.236.16",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-     {
-      "Name": "🔵TIM OPÇÃO 13",
-      "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "[app_host]",
-      "ProxyPort": "80",
+      {
+      Name": "TIM LOGUIN 04", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: jj.getnetgroup.online[crlf]Upgrade: WebSocket[crlf][crlf]", 
+      "SNI": "ajuda.c6bank.com.br", 
+      "TlsIP": "104.16.236.16", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
       "Info": "Tlsws"
-   },
+      },
+      {  
+      "Name": "TIM LOGUIN 05",  
+      "FLAG": "tim",  
+      "Payload": GET / HTTP/1.1[crlf]Host: SUACLOUDFRONT[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
+      "SNI": "",  
+      "TlsIP": "imagens.mobiaccess.com.br",  
+       "ProxyIP": "imagens.mobiaccess.com.br",  
+       "ProxyPort": "443",  
+       "Info": "Tlsws"  
+      }, 
+      {  
+      "Name": "TIM LOGUIN 06",  
+      "FLAG": "tim",  
+        "Payload": GET / HTTP/1.1[crlf]Host: SUACLOUDFRONT[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
+          "SNI": "",  
+          "TlsIP": "",  
+            "ProxyIP": "imagens.mobiaccess.com.br",  
+               "ProxyPort": "443",  
+                 "Info": "Tlsws"  
+       }, 
+{ 
+      "Name": "TIM LOGUIN 07", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
+      "SNI": "cdn.jsdelivr.net", 
+      "TlsIP": "cdn.jsdelivr.net", 
+      "ProxyIP": "cdn.jsdelivr.net", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+{ 
+      "Name": "TIM LOGUIN 08", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
+      "SNI": "cdn.jsdelivr.net", 
+      "TlsIP": "104.16.85.20", 
+      "ProxyIP": "104.16.85.20", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    },
    { 
       "Name": "🟡 Oi OPÇÃO 01", 
       "FLAG": "oi", 
