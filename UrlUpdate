@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.538",
+  "Version": "1.4.539",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -108,13 +108,7 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-     {
-        "name": "🟣VIVO OPÇÃO 8",
-        "host": "gedoc.vivo.com.br",
-        "port": 443,
-        "payload": "GET wss://gedoc.vivo.com.br  HTTP/1.1[crlf]Host: socket.dutrasystem.net[crlf]Upgrade: websocket[crlf][crlf]",
-        "sni": "gedoc.vivo.com.br"
-        },
+    
         {
         "Nome": "TIM LOGIN 01",
        "BANDEIRA": "tim",
