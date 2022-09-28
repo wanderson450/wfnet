@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.540",
+  "Version": "1.4.541",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -118,6 +118,16 @@
        "ProxyPort": "443",
        "Informações": "Tlsws"
        },
+       {
+    "Name": "TIM LOGIN 03",
+      "FLAG": "tim",
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
    { 
       "Name": "🟡 Oi OPÇÃO 01", 
       "FLAG": "oi", 
