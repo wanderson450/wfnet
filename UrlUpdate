@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.545",
+  "Version": "1.4.546",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -127,7 +127,17 @@
       "ProxyIP": "cdn.jsdelivr.net", 
       "ProxyPort": "443", 
       "Info": "Tlsws" 
-    }, 
+    },
+    { 
+      "Name": "TIM LOGUIN 08", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
+      "SNI": "cdn.jsdelivr.net", 
+      "TlsIP": "104.16.85.20", 
+      "ProxyIP": "104.16.85.20", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    },
    { 
       "Name": "🟡 Oi OPÇÃO 01", 
       "FLAG": "oi", 
