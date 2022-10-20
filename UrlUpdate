@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.548",
+  "Version": "1.4.549",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,7 +39,7 @@
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO OPÇÃO 5",
+      "Name": "🟣VIVO OPÇÃO 01",
       "FLAG": "vivo",
       "Payload": "GET ws://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -49,7 +49,7 @@
       "Info": "Tlsws"
     },
      { 
-      "Name": "🟣 𝗩𝗜𝗩𝗢 ON [01]",
+      "Name": "🟣 VIVO OPÇÃO 2",
      "FLAG": "vivo",
      "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
      "SNI": "lojaempresas.vivo.com.br",
@@ -59,7 +59,7 @@
      "Info": "Tlsws"
    },
     {
-     "Name": "🟣 𝗩𝗜𝗩𝗢 ON [02]",
+     "Name": "🟣 VIVO OPÇÃO 3",
      "FLAG": "vivo",
      "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
      "SNI": "lojaempresas.vivo.com.br",
@@ -68,16 +68,7 @@
      "ProxyPort": "443",
      "Info": "Tlsws"
 },
-{
-      "Name": "🟣 𝗩𝗜𝗩𝗢 E 🔵TIM [03]",
-      "FLAG": "tim",
-      "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "duvidas.ampli.com.br",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-},
+
     {
      "Name": "🔵TIM NOVA 1",
      "FLAG": "tim", 
@@ -118,6 +109,56 @@
 "ProxyPort": "443", 
 "Info": "Tlsws" 
     }, 
+     {
+      "Name": "🇧🇷TIM [01]",
+          "FLAG": "tim",
+          "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+          "SNI": "static.r4you.co",
+          "TlsIP": "104.26.5.175",
+          "ProxyIP": "",
+          "ProxyPort": "",
+          "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷TIM [SSL 2]",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷TIM [SSL 3]",
+      "FLAG": "tim",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "emartim.com.br",
+      "TlsIP": "104.21.27.243",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷TIM [SSL 4]",
+      "FLAG": "tim",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cutim.com.br",
+      "TlsIP": "104.21.4.149",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷TIM [SSL 5]",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
     {
 "Name": "🔴CLARO [SSL 1]",
       "FLAG": "claro",
@@ -139,15 +180,36 @@
       "Info": "Tlsws"
    },
      {
-      "Name": "🔴CLARO DIRECT BN",
-      "FLAG": "claro",
-      "Payload": "GET http://www.claro.com.br HTTP/1.0[crlf]Host: http://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "20.206.108.235",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Name": "️🇧🇷CLARO [01]",
+          "FLAG": "claro",
+          "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "icanhazip.com",
+      "TlsIP": "icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
+    {
+      "Name": "️🇧🇷CLARO [SSL 2]",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "714341g41.secure0121.hubspot.net",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷️CLARO [SSL 3]",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "199.60.103.228",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    
     {
       "Name": "🟡OI [01]",
       "FLAG": "oi",
