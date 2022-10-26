@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.555",
+  "Version": "1.4.556",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -107,7 +107,7 @@
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
-   }
+   },
     {
      "Name": "🔵 TIM OPÇÃO 1",
      "FLAG": "tim", 
