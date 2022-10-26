@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.551",
+  "Version": "1.4.552",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,7 +39,27 @@
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO OPÇÃO 01",
+"Name": "🟣 VIVO ON 1",
+      "FLAG": "claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+     "SNI": "Atendimento.descomplica.com.br",
+     "TlsIP": "Atendimento.descomplica.com.br",
+     "ProxyIP": "",
+     "ProxyPort": "443",
+     "Info": "Tlsws"
+    },
+    {
+      "Name": "🟣 VIVO ON 2",
+      "FLAG": "claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "Atendimento.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+{
+      "Name": "🟣 VIVO ON 3",
       "FLAG": "vivo",
       "Payload": "GET ws://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -47,96 +67,6 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-     { 
-      "Name": "🟣 VIVO OPÇÃO 2",
-     "FLAG": "vivo",
-     "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-     "SNI": "lojaempresas.vivo.com.br",
-     "TlsIP": "104.18.7.80",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
-   },
-    {
-     "Name": "🟣 VIVO OPÇÃO 3",
-     "FLAG": "vivo",
-     "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-     "SNI": "lojaempresas.vivo.com.br",
-     "TlsIP": "104.18.6.80",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
-},
-{ 
-      "Name": "🟣 𝗩𝗜𝗩𝗢 ON [01]",
-     "FLAG": "vivo",
-     "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-     "SNI": "lojaempresas.vivo.com.br",
-     "TlsIP": "104.18.7.80",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
-   },
-    {
-     "Name": "🟣 𝗩𝗜𝗩𝗢 ON [02]",
-     "FLAG": "vivo",
-     "Payload": "GET wss://vivo2.brasilssh.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-     "SNI": "vivo2.brasilssh.com",
-     "TlsIP": "104.18.6.80",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
-},
-{
-      "Name": "🟣 𝗩𝗜𝗩𝗢 E 🔵TIM [03]",
-      "FLAG": "tim",
-      "Payload": "GET wss://support.launchdarkly.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "support.launchdarkly.com",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-},
-{
-   "Name": "🟣VIVO FRONT 1",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: dc56iyzszeez5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-   "Name": "🟣VIVO FRONT 2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2rgs14d4zjfpe.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-   "Name": "🟣VIVO FRONT 3",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: drx17d5kt1d9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-   "Name": "🟣VIVO FRONT 4",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1urvvjyojq5fh.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
     },
     {
      "Name": "🔵 TIM OPÇÃO 1",
