@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.553",
+  "Version": "1.4.554",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -67,6 +67,16 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "🟣VIVO REGIÃO 03",
+      "FLAG": "vivo",
+      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:[app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
      "Name": "🔵 TIM OPÇÃO 1",
