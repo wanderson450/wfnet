@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.550",
+  "Version": "1.4.551",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -68,7 +68,76 @@
      "ProxyPort": "443",
      "Info": "Tlsws"
 },
-
+{ 
+      "Name": "🟣 𝗩𝗜𝗩𝗢 ON [01]",
+     "FLAG": "vivo",
+     "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+     "SNI": "lojaempresas.vivo.com.br",
+     "TlsIP": "104.18.7.80",
+     "ProxyIP": "",
+     "ProxyPort": "443",
+     "Info": "Tlsws"
+   },
+    {
+     "Name": "🟣 𝗩𝗜𝗩𝗢 ON [02]",
+     "FLAG": "vivo",
+     "Payload": "GET wss://vivo2.brasilssh.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+     "SNI": "vivo2.brasilssh.com",
+     "TlsIP": "104.18.6.80",
+     "ProxyIP": "",
+     "ProxyPort": "443",
+     "Info": "Tlsws"
+},
+{
+      "Name": "🟣 𝗩𝗜𝗩𝗢 E 🔵TIM [03]",
+      "FLAG": "tim",
+      "Payload": "GET wss://support.launchdarkly.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "support.launchdarkly.com",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+{
+   "Name": "🟣VIVO FRONT 1",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: dc56iyzszeez5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+   "Name": "🟣VIVO FRONT 2",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2rgs14d4zjfpe.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+   "Name": "🟣VIVO FRONT 3",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: drx17d5kt1d9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+   "Name": "🟣VIVO FRONT 4",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1urvvjyojq5fh.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
     {
      "Name": "🔵 TIM OPÇÃO 1",
      "FLAG": "tim", 
@@ -109,6 +178,66 @@
 "ProxyPort": "443", 
 "Info": "Tlsws" 
     }, 
+ {
+     "Name": "🔵TIM SUPORT",
+     "FLAG": "tim",
+     "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+     "SNI": "support.deezer.com",
+     "TlsIP": "support.deezer.com",
+     "ProxyIP": "",
+     "ProxyPort": "443",
+     "Info": "Tlsws"
+   },
+     {
+         "Name":"💙 TIM ONESIGNAL [1️⃣]",
+         "FLAG":"tim", 
+         "Payload":"GET wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+         "SNI":"api.onesignal.com",
+         "TlsIP":"api.onesignal.com",
+         "ProxyIP":"api.onesignal.com",
+         "ProxyPort":"433",
+         "Info": "Tlsws"  
+      },
+      {
+         "Name":"💙 TIM MOBILE [2️⃣]",
+         "FLAG":"tim", 
+         "Payload":"GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"mobile.c6bank.app",
+         "TlsIP":"mobile.c6bank.app",
+         "ProxyIP":"mobile.c6bank.app",
+         "ProxyPort":"443",
+         "Info": "Tlsws" 
+      },
+      {
+         "Name":"💙 TIM MONKEY [3️⃣]",
+         "FLAG":"tim", 
+         "Payload":"GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"auth-uat-us.surveymonkey.com",
+         "TlsIP":"104.18.7.22",
+         "ProxyIP":"",
+         "ProxyPort":"433",
+         "Info": "Tlsws" 
+      },
+      {
+         "Name":"💙 TIM DEEZER [4️⃣]",
+         "FLAG":"tim", 
+         "Payload":"GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"support.deezer.com",
+         "TlsIP":"support.deezer.com",
+         "ProxyIP":"support.deezer.com",
+         "ProxyPort":"433",
+         "Info": "Tlsws" 
+      },
+      {
+         "Name":"💙 TIM TESTE [5️⃣]",
+         "FLAG":"tim", 
+         "Payload":"GET wss://global-4-lvs-colossus-10.opera-mini.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"global-4-lvs-colossus-10.opera-mini.net",
+         "TlsIP":"global-4-lvs-colossus-10.opera-mini.net",
+         "ProxyIP":"global-4-lvs-colossus-10.opera-mini.net",
+         "ProxyPort":"433",
+         "Info": "Tlsws" 
+      },
     {
 "Name": "🔴CLARO [SSL 1]",
       "FLAG": "claro",
