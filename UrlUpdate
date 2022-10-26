@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.558",
+  "Version": "1.4.559",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO ON 3 4 5 TESTEM AI 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -148,6 +148,16 @@
 "CloudFront": "",
 "tunnelType":"4"
 },
+{
+Name": "VIVO 5G TESTE 3.0", 
+      "FLAG": "vivo", 
+      "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "lojaempresas.vivo.com.br",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      },
     {
      "Name": "🔵 TIM OPÇÃO 1",
      "FLAG": "tim", 
