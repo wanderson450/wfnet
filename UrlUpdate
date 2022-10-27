@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5681",
+  "Version": "1.4.5682",
   "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO VIVO FRONT🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -197,6 +197,16 @@
       "ProxyIP": "planosvivointernet.com.br", 
       "ProxyPort": "80", 
       "Info": "Proxy" 
+    },
+{
+      "Name": "🔵 TIM TESTE",
+       "FLAG": "tim",
+      "Payload": "GET wss://duvidas.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "duvidas.ampli.com.br",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "╰┈[☞>📱📡 TIM 5G",
