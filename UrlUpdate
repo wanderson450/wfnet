@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.561",
+  "Version": "1.4.562",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO ON 3 4 5 TESTEM AI 🟢",
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -88,375 +88,186 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
    },
-   {
-"Name":"VIVO PROXY [1]",
-"Payload":"GET / HTTP/1.1[crlf]Host: app_host[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-"Sni":"",
-"Tlsip":"",
-"ProxyIP": "104.18.6.80",
-"ProxyPort": "80",
-"CloudFront": "",
-"tunnelType":"2"
-},
-{
-"Name":"VIVO WSPAY [2]",
-"Payload":"GET wss://compre.vivo.com.br HTTP/1.1[crlf]Host: app_host[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-"Sni":"compre.vivo.com.br",
-"Tlsip":"104.18.6.80",
-"ProxyIP": "104.18.6.80",
-"ProxyPort": "433",
-"CloudFront": "",
-"tunnelType":"4"
-},
-{
-"Name":"VIVO WSPAY [3]",
-"Payload":"GET wss://compre.vivo.com.br HTTP/1.1[crlf]Host: app_host[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-"Sni":"compre.vivo.com.br",
-"Tlsip":"104.18.7.80",
-"ProxyIP": "104.18.7.80",
-"ProxyPort": "433",
-"CloudFront": "",
-"tunnelType":"4"
-},
-{
-"Name":"VIVO WSPAY [4]",
-"Payload":"GET sni://servicedesk.resultadosdigitais.com.br HTTP/1.1[crlf]Host: app_host[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-"Sni":"servicedesk.resultadosdigitais.com.br",
-"Tlsip":"servicedesk.resultadosdigitais.com.br",
-"ProxyIP": "servicedesk.resultadosdigitais.com.br",
-"ProxyPort": "443",
-"CloudFront": "",
-"tunnelType":"4"
-},
-{
-"Name":"VIVO PROXY [5]",
-"Payload":"GET / HTTP/1.1[crlf]Host: app_front[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-"Sni":"",
-"Tlsip":"",
-"ProxyIP": "recarga.vivo.com.br",
-"ProxyPort": "80",
-"CloudFront": "recarga.vivo.com.br",
-"tunnelType":"0"
-},
-{
-"Name":"VIVO EASY [6]",
-"Payload":"GET sni://legado.vivo.com.br HTTP/1.1[crlf]Host: app_host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-"Sni":"legado.vivo.com.br",
-"Tlsip":"legado.vivo.com.br",
-"ProxyIP": "legado.vivo.com.br",
-"ProxyPort": "443",
-"CloudFront": "",
-"tunnelType":"4"
-},
-{
-Name": "VIVO 5G TESTE 3.0", 
-      "FLAG": "vivo", 
-      "Payload": "GET wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "lojaempresas.vivo.com.br",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-      },
-      {
-"Name": "📱 VIVO TLS DIRECT 01 📡💜",
-"FLAG": "vivo",
-"Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "[app_host]",
-"TlsIP": "104.18.7.80",
-"ProxyIP": "",
-"ProxyPort": "",
-"Info": "Tlsws"
-},
-{
-"Name": "📱 VIVO TLS DIRECT 02 📡💜",
-"FLAG": "vivo",
-"Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "[app_host]",
-"TlsIP": "104.18.6.80",
-"ProxyIP": "",
-"ProxyPort": "",
-"Info": "Tlsws"
-},
-{
-"Name": "📱 VIVO TLS DIRECT 03 📡💜",
-"FLAG": "vivo",
-"Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "[app_host]",
-"TlsIP": "162.247.241.14",
-"ProxyIP": "",
-"ProxyPort": "",
-"Info": "Tlsws"
-},
-{
-      "Name": "🟣 VIVO AMPLI 1", 
-      "FLAG": "vivo", 
-      "Payload": "GET wss://duvidas.ampli.com.br/hc/pt-br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "duvidas.ampli.com.br", 
-      "TlsIP": "104.16.51.111", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },
-    {
-"Name": "╰◕╰💙 TIM PLAY-ON 🟢◕╰◕",
-"FLAG": "tim",
-"Payload": "PROPPATCH wss://terms.c6bank.com.br HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-"SNI": "terms.c6bank.com.br",
-"TlsIP": "terms.c6bank.com.br",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰◕╰⚡️ TIM FAST ⚡️◕╰◕",
-"FLAG": "tim",
-"Payload": "PROPPATCH wss://cdn.c6bank.com.br/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-"SNI": "cdn.c6bank.com.br",
-"TlsIP": "cdn.c6bank.com.br",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰◕╰🍻 TIM TURBO 🍻◕╰◕",
-"FLAG": "tim",
-"Payload": "GET wss://bam.nr-data.net  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "bam.nr-data.net",
-"TlsIP": "bam.nr-data.net",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰◕╰🌏 TIM CONECTADO 🌏◕╰◕",
-"FLAG": "tim",
-"Payload": "PROPPATCH wss://image.mail.c6bank.com.br/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-"SNI": "image.mail.c6bank.com.br",
-"TlsIP": "image.mail.c6bank.com.br",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰◕╰⚫️ TIM BLACK ⚫️◕╰◕",
-"FLAG": "tim",
-"Payload": "PROPPATCH wss://mobile.c6bank.app HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-"SNI": "mobile.c6bank.app",
-"TlsIP": "mobile.c6bank.app",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰◕╰🪐 TIM GAMES 🪐◕╰◕",
-"FLAG": "tim",
-"Payload": "GET wss://mobile.c6bank.app  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "mobile.c6bank.app",
-"TlsIP": "mobile.c6bank.app",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰◕╰🕺 TIM DIRECT 🕺◕╰◕",
-"FLAG": "tim",
-"Payload": "HTTP/ [crlf][crlf]|[crlf]",
-"SNI":"",
-"TlsIP": "",
-"ProxyIP": "[app_host]",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
-{
-"Name": "╰◕╰💙🔥 TIM NORDESTE 🔥💙╰◕",
-"FLAG": "tim",
-"Payload": "GET wss://assets-sf.c6bank.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "assets-sf.c6bank.com.br",
-"TlsIP": "104.16.237.16",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "◕╰💙🔥 TIM LIVRE 🔥💙╰◕",
-"FLAG": "tim",
-"Payload": "GET wss://cursolivre.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-"SNI": "cursolivre.ampli.com.br",
-"TlsIP": "172.64.144.237",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "◕╰🕺 TIM ONE 🕺◕╰◕",
-"FLAG": "Tim",
-"Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: websocket[crlf][crlf]" ,
-"SNI": "api.onesignal.com",
-"TlsIP": "api.onesignal.com",
-"ProxyIP": "api.onesignal.com",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "╰┈[☞>📱📡 TIM 5G MAX💙",
-"FLAG": "tim",
-"Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-"SNI": "workplaceservices.surveymonkey.com",
-"TlsIP": "workplaceservices.surveymonkey.com",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-    {
-     "Name": "🔵 TIM OPÇÃO 1",
-     "FLAG": "tim", 
-     "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
-     "SNI": "smainfo.surveymonkey.com", 
-     "TlsIP": "smainfo.surveymonkey.com", 
-     "ProxyIP": "", 
-     "ProxyPort": "443", 
-     "Info": "Tlsws"  
-  },
-   {
-      "Name": "🔵 TIM OPÇÃO 2",
-      "FLAG": "tim",
-      "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "duvidas.ampli.com.br",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-},
-{
-"Name": "🔵 TIM OPÇÃO 3",
-      "FLAG": "tim",
-      "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "duvidas.ampli.com.br",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-      },
-      {
-      "Name": "🔵 TIM OPÇÃO 4", 
-"FLAG": "tim", 
-"Payload": "GET wss://auth.of.c6bank.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
-"SNI": "auth.of.c6bank.com.br", 
-"TlsIP": "auth.of.c6bank.com.br", 
-"ProxyIP": "", 
-"ProxyPort": "443", 
-"Info": "Tlsws" 
-    }, 
- {
-     "Name": "🔵TIM SUPORT",
-     "FLAG": "tim",
-     "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-     "SNI": "support.deezer.com",
-     "TlsIP": "support.deezer.com",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
+{      
+   "Name": "🟣 VIVO ON DDD 92 E OUTROS",
+   "FLAG": "vivo",
+   "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+   "SNI": "smainfo.surveymonkey.com",
+   "TlsIP": "104.16.53.111",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
    },
-     {
-         "Name":"💙 TIM ONESIGNAL [1️⃣]",
-         "FLAG":"tim", 
-         "Payload":"GET wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-         "SNI":"api.onesignal.com",
-         "TlsIP":"api.onesignal.com",
-         "ProxyIP":"api.onesignal.com",
-         "ProxyPort":"433",
-         "Info": "Tlsws"  
-      },
-      {
-         "Name":"💙 TIM MOBILE [2️⃣]",
-         "FLAG":"tim", 
-         "Payload":"GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"mobile.c6bank.app",
-         "TlsIP":"mobile.c6bank.app",
-         "ProxyIP":"mobile.c6bank.app",
-         "ProxyPort":"443",
-         "Info": "Tlsws" 
-      },
-      {
-         "Name":"💙 TIM MONKEY [3️⃣]",
-         "FLAG":"tim", 
-         "Payload":"GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"auth-uat-us.surveymonkey.com",
-         "TlsIP":"104.18.7.22",
-         "ProxyIP":"",
-         "ProxyPort":"433",
-         "Info": "Tlsws" 
-      },
-      {
-         "Name":"💙 TIM DEEZER [4️⃣]",
-         "FLAG":"tim", 
-         "Payload":"GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"support.deezer.com",
-         "TlsIP":"support.deezer.com",
-         "ProxyIP":"support.deezer.com",
-         "ProxyPort":"433",
-         "Info": "Tlsws" 
-      },
-      {
-         "Name":"💙 TIM TESTE [5️⃣]",
-         "FLAG":"tim", 
-         "Payload":"GET wss://global-4-lvs-colossus-10.opera-mini.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"global-4-lvs-colossus-10.opera-mini.net",
-         "TlsIP":"global-4-lvs-colossus-10.opera-mini.net",
-         "ProxyIP":"global-4-lvs-colossus-10.opera-mini.net",
-         "ProxyPort":"433",
-         "Info": "Tlsws" 
-      },
-    {
-"Name": "🔴CLARO [SSL 1]",
-      "FLAG": "claro",
-      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-     "SNI": "Atendimento.descomplica.com.br",
-     "TlsIP": "Atendimento.descomplica.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
-    },
-    {
-      "Name": "🔴CLARO [SSL 2]",
-      "FLAG": "claro",
-      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-"SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "Atendimento.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+    { 
+   "Name": "🟣 VIVO ON DDD 92 E OUTROS",
+   "FLAG": "vivo",
+   "Payload": "GET wss://itsupport.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+   "SNI": "itsupport.surveymonkey.com",
+   "TlsIP": "104.16.53.111",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
    },
-     {
-      "Name": "️🔴CLARO [SSL 3]",
-          "FLAG": "claro",
-          "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "icanhazip.com",
-      "TlsIP": "icanhazip.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟡OI [01]",
-      "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+{ 
+   "Name": "🟣 VIVO ON DDD 92 E OUTROS",
+   "FLAG": "vivo",
+   "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+   "SNI": "workplaceservices.surveymonkey.com",
+   "TlsIP": "104.16.51.111",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
    },
-    {
-      "Name": "🟡OI [02]",
-      "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    }
+        {
+            "Name": "TIM 1",
+            "FLAG": "tim",
+            "Payload": "GET wss://duvidas.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: InforTech websocket[crlf][crlf]",
+            "SNI": "duvidas.ampli.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 2",
+            "FLAG": "tim",
+            "Payload": "GET wss://auth.of.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "auth.of.c6bank.com.br",
+            "TlsIP": "172.64.144.237",
+            "ProxyIP": "172.64.144.237",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 3",
+            "FLAG": "tim",
+            "Payload": "PROPPATCH wss://auth-uat-us.surveymonkey.com/ HTTP/1.200 [lf]Host: servidor1.tecnovpnpremium.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+            "SNI": "auth-uat-us.surveymonkey.com",
+            "TlsIP": "104.18.7.22",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 4",
+            "FLAG": "tim",
+            "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "104.16.51.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 5",
+            "FLAG": "tim",
+            "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "support.deezer.com",
+            "TlsIP": "support.deezer.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 6",
+            "FLAG": "tim",
+            "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "smainfo.surveymonkey.com",
+            "TlsIP": "smainfo.surveymonkey.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 7",
+            "FLAG": "tim",
+            "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "api.onesignal.com",
+            "TlsIP": "api.onesignal.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "TIM 8",
+            "FLAG": "tim",
+            "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "static.r4you.co",
+            "TlsIP": "static.r4you.co",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "CLARO 1",
+            "FLAG": "claro",
+            "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "Atendimento.descomplica.com.br",
+            "TlsIP": "Atendimento.descomplica.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "CLARO 2",
+            "FLAG": "claro",
+            "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "No.descomplica.com.br",
+            "TlsIP": "No.descomplica.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "CLARO 3",
+            "FLAG": "claro",
+            "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "CLARO 4",
+            "FLAG": "claro",
+            "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "content.akross.com.br",
+            "TlsIP": "content.akross.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "CLARO 5",
+            "FLAG": "claro",
+            "Payload": "GET wss://go.launchdarkly.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "go.launchdarkly.com",
+            "TlsIP": "go.launchdarkly.com",
+            "ProxyIP": "104.17.72.206",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        
+        {
+            "Name": "OI 1",
+            "FLAG": "oi",
+            "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "hbogo.com.br",
+            "TlsIP": "104.16.51.91",
+            "ProxyIP": "104.16.51.91",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "OI 2",
+            "FLAG": "oi",
+            "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "hbogo.com.br",
+            "TlsIP": "104.16.51.91",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        }
   ]
 }
