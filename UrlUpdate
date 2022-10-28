@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5683",
+  "Version": "1.4.5684",
   "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO🟢" 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -299,7 +299,7 @@
 "Info": "Tlsws" 
     },
 {
-      "Name": "🔴 CLARO 1"
+      "Name": "🔴 CLARO 1",
       "FLAG": "claro",
       "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "Atendimento.descomplica.com.br",
