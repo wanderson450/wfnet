@@ -119,6 +119,16 @@
    "Info": "Tlsws"
    },
 {
+   "Name": "🟣VIVO FRONT NATIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: dgs0zqb9co3s4.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
    "Name": "🟣VIVO FRONT 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: dc56iyzszeez5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
