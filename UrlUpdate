@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.5686",
-  "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO🟢", 
+  "Version": "1.4.5687",
+  "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO VIVO🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -38,88 +38,8 @@
     }
   ],
   "Networks": [
-    {
-"Name": "🟣 VIVO ON 1",
-      "FLAG": "vivo",
-      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-     "SNI": "Atendimento.descomplica.com.br",
-     "TlsIP": "Atendimento.descomplica.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "443",
-     "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣 VIVO ON 2",
-      "FLAG": "vivo",
-      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-"SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "Atendimento.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-   },
-    {      
-   "Name": "🟣 VIVO ON 3",
-   "FLAG": "vivo",
-   "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "smainfo.surveymonkey.com",
-   "TlsIP": "104.16.53.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-            { 
-   "Name": "🟣 VIVO ON 4",
-   "FLAG": "vivo",
-   "Payload": "GET wss://itsupport.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "itsupport.surveymonkey.com",
-   "TlsIP": "104.16.53.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-{ 
-   "Name": "🟣 VIVO ON 5",
-   "FLAG": "vivo",
-   "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "workplaceservices.surveymonkey.com",
-   "TlsIP": "104.16.51.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-{      
-   "Name": "🟣 VIVO ON 6",
-   "FLAG": "vivo",
-   "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "smainfo.surveymonkey.com",
-   "TlsIP": "104.16.53.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-    { 
-   "Name": "🟣 VIVO ON 7",
-   "FLAG": "vivo",
-   "Payload": "GET wss://itsupport.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "itsupport.surveymonkey.com",
-   "TlsIP": "104.16.53.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
-{ 
-   "Name": "🟣 VIVO ON 8",
-   "FLAG": "vivo",
-   "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "workplaceservices.surveymonkey.com",
-   "TlsIP": "104.16.51.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
 {
-   "Name": "🟣VIVO FRONT NATIVO",
+   "Name": "🟣VIVO TODOS OS DDD 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: dgs0zqb9co3s4.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -128,80 +48,10 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-{
-   "Name": "🟣VIVO FRONT 1",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: dc56iyzszeez5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
     {
-   "Name": "🟣VIVO FRONT 2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2rgs14d4zjfpe.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-   "Name": "🟣VIVO FRONT 3",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: drx17d5kt1d9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-   "Name": "🟣VIVO FRONT 4",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1urvvjyojq5fh.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-   "Name": "🟣VIVO FRONT 5", 
+   "Name": "🟣VIVO TODOS OS DDD 02", 
       "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: dc56iyzszeez5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "planosvivointernet.com.br", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-   "Name": "🟣VIVO FRONT 6", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2rgs14d4zjfpe.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "planosvivointernet.com.br", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-   "Name": "🟣VIVO FRONT 7", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: drx17d5kt1d9.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "planosvivointernet.com.br", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-   "Name": "🟣VIVO FRONT 8", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1urvvjyojq5fh.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: dgs0zqb9co3s4.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
       "SNI": "", 
       "TlsIP": "", 
       "ProxyIP": "planosvivointernet.com.br", 
