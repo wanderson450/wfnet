@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5690",
+  "Version": "1.4.5691",
   "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO VIVO🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -77,36 +77,6 @@
      "ProxyIP": "",
      "ProxyPort": "443",
      "Info": "Tlsws"
-   },
-{
-     "Name": "🔵 TIM ON 02", 
-     "FLAG": "tim",  
-     "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
-     "SNI": "workplaceservices.surveymonkey.com",  
-     "TlsIP": "workplaceservices.surveymonkey.com",  
-     "ProxyIP": "104.16.51.111",  
-     "ProxyPort": "443",  
-     "Info": "Tlsws"   
-   },
-   {
-     "Name": "🔵 TIM ON 03", 
-     "FLAG": "tim", 
-     "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-     "SNI": "support.deezer.com", 
-     "TlsIP": "support.deezer.com", 
-     "ProxyIP": "", 
-     "ProxyPort": "443", 
-     "Info": "Tlsws"
-   }, 
-      {
-      "Name": "🔵 TIM ON 04",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth.of.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "auth.of.c6bank.com.br",
-      "TlsIP": "172.64.144.237",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
    },
 {
       "Name": "🔴 CLARO 1",
