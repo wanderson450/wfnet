@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.9",
+  "Version": "1.5.10",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO ON 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -87,6 +87,7 @@
      "ProxyIP": "", 
      "ProxyPort": "443", 
      "Info": "Tlsws"
+     },
     {
       "Name": "🔴 CLARO ON 01",
       "FLAG": "claro",
