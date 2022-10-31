@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.10",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO ON 🟢", 
+  "Version": "1.5.11",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -68,8 +68,18 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+    {
+"Name": "🔵 TIM ON 01",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: dgs0zqb9co3s4.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "contratetim.com.br",
+"ProxyIP": "65.8.248.59",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
    {
-     "Name": "🔵 TIM ON 01", 
+     "Name": "🔵 TIM ON 02", 
      "FLAG": "tim",  
      "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",  
      "SNI": "workplaceservices.surveymonkey.com",  
@@ -79,7 +89,7 @@
      "Info": "Tlsws"   
    },
     {
-     "Name": "🔵 TIM ON 02", 
+     "Name": "🔵 TIM ON 03", 
      "FLAG": "tim", 
      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
      "SNI": "support.deezer.com", 
