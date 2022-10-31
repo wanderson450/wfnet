@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5694",
+  "Version": "1.4.5695",
   "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO VIVO M🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -7,6 +7,7 @@
   "UrlContato": "0", 
   "UrlTermos": "https://wanderson450.github.io/wfnet/termos.html",
   "CheckUser": "true",
+  "FormatCheck": "dd/mm/yyyy",
     "Udp": [
     {
       "Porta": "7300"
