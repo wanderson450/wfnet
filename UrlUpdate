@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.4",
+  "Version": "1.5.5",
   "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -117,6 +117,136 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO 14/10",
+      "FLAG": "claro",
+      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "104.18.248.37",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO 17/10-1",
+      "FLAG": "claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "elloro.zendesk.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO 17/01-2",
+      "FLAG": "claro",
+      "Payload": "GET wss://No.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO",
+      "FLAG": "claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "Atendimento.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO INTERNET",
+      "FLAG": "claro",
+      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "CLARO-1",
+      "FLAG": "claro",
+      "Payload": "GET wss://em.launchdarkly.com/ HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "em.launchdarkly.com",
+      "TlsIP": "em.launchdarkly.com",
+      "ProxyIP": "em.launchdarkly.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO-2",
+      "FLAG": "claro",
+      "Payload": "GET wss://cdnclaro2.wooza.com.br/ HTTP/1.1[crlf]Host: topspeed1.meuserverdominio.ml[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnclaro2.wooza.com.br",
+      "TlsIP": "cdnclaro2.wooza.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO-3",
+      "FLAG": "claro",
+      "Payload": "GET http://m.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "CLARO-4",
+      "FLAG": "claro",
+      "Payload": "GET http://ecob.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "CLARO-5",
+      "FLAG": "claro",
+      "Payload": "GET http://bonuz.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "CLARO-6",
+      "FLAG": "claro",
+      "Payload": "GET http://api.commandcenter.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "CLARO-7",
+      "FLAG": "claro",
+      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "CLARO-8",
+      "FLAG": "claro",
+      "Payload": "GET https://flex.claro.com.br/HTTP/1.0[crlf][app_host]https://flex.claro.com.br/[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
   ]
 }
