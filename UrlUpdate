@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5701",
+  "Version": "1.4.5702",
   "ReleaseNotes": "🟢NOVA ATUALIZAÇÃO VIVO M🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -58,16 +58,6 @@
       "ProxyPort": "80", 
       "Info": "Proxy" 
     },
-    {      
-   "Name": "🟣 VIVO ON 3",
-   "FLAG": "vivo",
-   "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-   "SNI": "smainfo.surveymonkey.com",
-   "TlsIP": "104.16.53.111",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-   },
     {
      "Name": "🔵 TIM ON 01",
      "FLAG": "tim",
