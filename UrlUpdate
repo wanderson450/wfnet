@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.13",
+  "Version": "1.5.14",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -68,6 +68,16 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+{
+"Name": "🟣𝗩𝗜𝗩𝗢 RESERVA🟣",
+"FLAG": "vivo", 
+"Payload": "GET wss://duvidas.ampli.com.br/hc/pt-br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]", 
+"SNI": "duvidas.ampli.com.br", 
+"TlsIP": "104.16.53.111", 
+"ProxyIP": "", 
+"ProxyPort": "443", 
+"Info": "Tlsws"
+},
    {
      "Name": "🔵 TIM ON 01", 
      "FLAG": "tim",  
