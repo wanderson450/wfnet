@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.16",
+  "Version": "1.5.19",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -89,87 +89,7 @@
      "Info": "Tlsws"   
    },
     {
-     "Name": "🔵 TIM ON 02", 
-     "FLAG": "tim", 
-     "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-     "SNI": "support.deezer.com", 
-     "TlsIP": "support.deezer.com", 
-     "ProxyIP": "", 
-     "ProxyPort": "443", 
-     "Info": "Tlsws"
-     },
-    {
-      "Name": "🔴 CLARO ON 01",
-      "FLAG": "claro",
-      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-      "SNI": "No.descomplica.com.br",
-      "TlsIP": "104.18.248.37",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔴 CLARO ON 02",
-      "FLAG": "claro",
-      "Payload": "GET wss://No.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "No.descomplica.com.br",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔴 CLARO ON 03",
-      "FLAG": "claro",
-      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-      "SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "Atendimento.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO TODOS OS DDDs",
-      "FLAG": "vivo",
-      "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-      "SNI": "workplaceservices.surveymonkey.com",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO TODAS REGIÕES",
-      "FLAG": "vivo",
-      "Payload": "GET wss://portalrecarga.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "portalrecarga.vivo.com.br",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "╰┈[☞>📱📡 TIM API 1",
-      "FLAG": "tim",
-      "Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "api.onesignal.com",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "╰┈[☞>📱📡 TIM API 2",
-      "FLAG": "tim",
-      "Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "api.onesignal.com",
-      "TlsIP": "api.onesignal.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "╰┈[☞>📱📡 TIM 5G",
+      "Name": "🔵 TIM ON 02",
       "FLAG": "tim",
       "Payload": "PROPPATCH wss://auth-uat-us.surveymonkey.com/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "auth-uat-us.surveymonkey.com",
@@ -179,17 +99,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM SALDO EXPIRADO",
-      "FLAG": "tim",
-      "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "[app_host]",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM ULTRA 5G",
+      "Name": "🔵 TIM ON 03",
       "FLAG": "tim",
       "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "workplaceservices.surveymonkey.com",
@@ -199,7 +109,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM 5G VELOZ",
+      "Name": "🔵 TIM ON 04",
       "FLAG": "tim",
       "Payload": "PROPPATCH wss://auth-uat-us.surveymonkey.com/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "auth-uat-us.surveymonkey.com",
@@ -208,18 +118,9 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+    
     {
-      "Name": "TIM 02",
-      "FLAG": "tim",
-      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "support.deezer.com",
-      "TlsIP": "support.deezer.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "OI 1",
+      "Name": "🟡 OI ON 01",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -229,7 +130,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OI 2",
+      "Name": "🟡 OI ON 02",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -239,7 +140,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OI 3",
+      "Name": "🟡 OI ON 03",
       "FLAG": "oi",
       "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -249,33 +150,13 @@
       "Info": "Tlsws" 
 },
     {
-      "Name": "🟡 OI ON 01",
+      "Name": "🟡 OI ON 04",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws[crlf]Sec-Websocket-Extensions: superspeed\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-   {
-      "Name": "🟡 OI ON 02",
-      "FLAG": "oi",
-      "Payload": "GET ws://oii.gdmhost.ga HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "oii.gdmhost.ga",
-      "TlsIP": "oii.gdmhost.ga",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "🟡 OI ON 03",
-      "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
       "Info": "Tlsws"
     }
   ]
