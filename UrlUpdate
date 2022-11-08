@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.19",
+  "Version": "1.5.21",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -77,6 +77,26 @@
 "ProxyIP": "", 
 "ProxyPort": "443", 
 "Info": "Tlsws"
+},
+{
+"Name": "🔵TIM FRONT 1",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: dpp15ni3xkvl5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "pos.tim.com.br",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🔵TIM FRONT 2",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: dpp15ni3xkvl5.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua[crlf] Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "contratecontrole.tim.com.br",
+"ProxyPort": "80",
+"Info": "Proxy"
 },
    {
      "Name": "🔵 TIM ON 01", 
