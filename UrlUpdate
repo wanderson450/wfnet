@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.22",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO 🟢", 
+  "Version": "1.5.23",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -39,9 +39,9 @@
   ],
   "Networks": [
 {
-   "Name": "🟣 VIVO NOW 01",
+   "Name": "🟣 VIVO VIP 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: dpp15ni3xkvl5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2gx61yw373m0z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
@@ -49,9 +49,9 @@
       "Info": "Proxy"
     },
     {
-     "Name": "🟣 VIVO NOW 02", 
+     "Name": "🟣 VIVO VIP 02", 
       "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: dpp15ni3xkvl5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2gx61yw373m0z.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
       "SNI": "", 
       "TlsIP": "", 
       "ProxyIP": "planosvivointernet.com.br", 
