@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.27",
+  "Version": "1.5.29",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,9 +39,9 @@
   ],
   "Networks": [
 {
-   "Name": "🟣 VIVO FRONT X 1",
+   "Name": "🟣 VIVO FRONT NOVA 1",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: de2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2w85cv61a3gme.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
@@ -49,9 +49,9 @@
       "Info": "Proxy"
     },
     {
-     "Name": "🟣 VIVO FRONT X 2", 
+     "Name": "🟣 VIVO FRONT NOVA 2", 
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: de2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2w85cv61a3gme.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
       "SNI": "", 
       "TlsIP": "", 
       "ProxyIP": "planosvivointernet.com.br", 
