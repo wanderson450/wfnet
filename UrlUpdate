@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.25",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO TODAS AS OPERADORAS, FAÇAM O TESTE 🟢", 
+  "Version": "1.5.26",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -39,9 +39,9 @@
   ],
   "Networks": [
 {
-   "Name": "🟣 VIVO ONLINE TODOS DDD 1",
+   "Name": "🟣 VIVO FRONT 1",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: neg2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
@@ -49,9 +49,9 @@
       "Info": "Proxy"
     },
     {
-     "Name": "🟣 VIVO ONLINE TODOS DDD 2", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: br2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+     "Name": "🟣 VIVO FRONT 2", 
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: neg2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
       "SNI": "", 
       "TlsIP": "", 
       "ProxyIP": "planosvivointernet.com.br", 
