@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.31",
+  "Version": "1.5.32",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,9 +39,9 @@
   ],
   "Networks": [
 {
-   "Name": "🟣 VIVO FRONT NOVA 1",
+   "Name": "🟣 VIVO FRONT DIA 23/11",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2w85cv61a3gme.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: y2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
