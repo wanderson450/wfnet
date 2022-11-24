@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.34",
+  "Version": "1.5.35",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -48,6 +48,55 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
 },
+{ 
+  "Name": "🟣VIVO DESCOMPLICA", 
+  "FLAG": "vivo", 
+  "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: a.brechopedroebino.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]", 
+  "SNI": "Atendimento.descomplica.com.br", 
+  "TlsIP": "Atendimento.descomplica.com.br", 
+  "ProxyIP": "Atendimento.descomplica.com.br", 
+  "ProxyPort": "443", 
+  "Info": "Tlsws" 
+},
+{ 
+  "Name": "🟣VIVO GARENA", 
+  "FLAG": "vivo", 
+  "Payload": "GET wss://ffsupportbd.garena.com/ HTTP/1.1[crlf]Host: a.brechopedroebino.com.br[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
+  "SNI": "ffsupportbd.garena.com", 
+  "TlsIP": "ffsupportbd.garena.com", 
+  "ProxyIP": "ffsupportbd.garena.com", 
+  "ProxyPort": "443", 
+  "Info": "Tlsws" 
+},
+{ 
+  "Name": "🟣VIVO TINDER", 
+  "FLAG": "vivo", 
+  "Payload": "GET wss://www.help.tinder.com/ HTTP/1.1[crlf]Host: a.brechopedroebino.com.br[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
+  "SNI": "www.help.tinder.com", 
+  "TlsIP": "www.help.tinder.com", 
+  "ProxyIP": "www.help.tinder.com", 
+  "ProxyPort": "443", 
+  "Info": "Tlsws" 
+},
+"Name": "🟣vivo nova",
+            "FLAG": "vivo",
+            "Payload": "GET wss://mvfront.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "mvfront.vivo.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+},
+{
+"Name": "🟣vivo appstore",
+            "FLAG": "vivo",
+            "Payload": "GET wss://appstore.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "appstore.vivo.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+},
 {
    "Name": "🟣 VIVO FRONT DIA 23/11",
       "FLAG": "vivo",
@@ -68,66 +117,6 @@
       "ProxyPort": "80", 
       "Info": "Proxy" 
     },
-    {
-      "Name": "🟣 VIVO 01",
-      "FLAG": "vivo",
-      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-      "SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "Atendimento.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-{
-"Name": "🟣 VIVO 02",
-"FLAG": "vivo", 
-"Payload": "GET wss://duvidas.ampli.com.br/hc/pt-br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]", 
-"SNI": "duvidas.ampli.com.br", 
-"TlsIP": "104.16.53.111", 
-"ProxyIP": "", 
-"ProxyPort": "443", 
-"Info": "Tlsws"
-},
- {
-         "Name":"🟣 VIVO 03",
-         "FLAG":"tim", 
-         "Payload":"GET wss://server1.www1.v1.laopromo.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-         "SNI":"server1.www1.v1.laopromo.com",
-         "TlsIP":"104.16.51.111",
-         "ProxyIP":"",
-         "ProxyPort":"443",
-         "Info": "Tlsws" 
-      },
-{
-            "Name": "🟣 VIVO 04",
-            "FLAG": "vivo",
-            "Payload": "GET wss://mve.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-            "SNI": "mve.vivo.com.br",
-            "TlsIP": "104.16.51.111",
-            "ProxyIP": "104.16.51.111",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
-        {
-            "Name": "🟣 VIVO 05",
-            "FLAG": "vivo",
-            "Payload": "GET wss://appstore.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "SNI": "appstore.vivo.com.br",
-            "TlsIP": "104.16.51.111",
-            "ProxyIP": "104.16.51.111",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
-        {
-            "Name": "🟣 VIVO 06",
-            "FLAG": "vivo",
-            "Payload": "GET wss://help.zapier.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-            "SNI": "help.zapier.com",
-            "TlsIP": "help.zapier.com",
-            "ProxyIP": "help.zapier.com",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
  {
       "Name": "🔵 TIM ON 01",
       "FLAG": "tim",
