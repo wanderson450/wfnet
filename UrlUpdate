@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.33",
+  "Version": "1.5.34",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,6 +39,16 @@
   ],
   "Networks": [
 {
+"Name": "🟣VIVO MODO AVIAO Dia 24/11",
+      "FLAG": "vivo",
+      "Payload": "GET wss://unpkg.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+{
    "Name": "🟣 VIVO FRONT DIA 23/11",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: y2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
@@ -58,16 +68,6 @@
       "ProxyPort": "80", 
       "Info": "Proxy" 
     },
-{
-"Name": "VIVO MODO AVIAO",
-      "FLAG": "vivo",
-      "Payload": "GET wss://unpkg.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "unpkg.com",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-},
     {
       "Name": "🟣 VIVO 01",
       "FLAG": "vivo",
