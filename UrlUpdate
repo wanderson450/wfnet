@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.35",
+  "Version": "1.5.37",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -78,6 +78,7 @@
   "ProxyPort": "443", 
   "Info": "Tlsws" 
 },
+{
 "Name": "🟣vivo nova",
             "FLAG": "vivo",
             "Payload": "GET wss://mvfront.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
