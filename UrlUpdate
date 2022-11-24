@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.41",
-  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
+  "Version": "1.5.42",
+  "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO 24/11/2022🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -39,7 +39,27 @@
   ],
   "Networks": [
 {
-"Name": "🟣VIVO MODO AVIAO Dia 24/11",
+   "Name": "🟣 VIVO FRONT DIA 24/11 - 1",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: em2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+     "Name": "🟣 VIVO FRONT DIA 24/11 - 2", 
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: em2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+      "ProxyIP": "planosvivointernet.com.br", 
+      "ProxyPort": "80", 
+      "Info": "Proxy" 
+    },
+    {
+"Name": "🟣VIVO - CAIU FRONT CONECTA AQUI",
       "FLAG": "vivo",
       "Payload": "GET wss://unpkg.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "unpkg.com",
@@ -48,26 +68,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
 },
-{
-   "Name": "🟣 VIVO FRONT DIA 23/11",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: neg2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-     "Name": "🟣 VIVO FRONT NOVA 2", 
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2w85cv61a3gme.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "planosvivointernet.com.br", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
  {
       "Name": "🔵 TIM ON 01",
       "FLAG": "tim",
