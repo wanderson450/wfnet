@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.39",
+  "Version": "1.5.40",
   "ReleaseNotes": "🟢 NOVA ATUALIZAÇÃO VIVO FRONT🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -47,26 +47,6 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-},
-{
-"Name": "🟣vivo nova",
-            "FLAG": "vivo",
-            "Payload": "GET wss://mvfront.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "SNI": "mvfront.vivo.com.br",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-},
-{
-"Name": "🟣vivo appstore",
-            "FLAG": "vivo",
-            "Payload": "GET wss://appstore.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "SNI": "appstore.vivo.com.br",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
 },
 {
    "Name": "🟣 VIVO FRONT DIA 23/11",
