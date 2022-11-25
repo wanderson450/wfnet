@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.48",
+  "Version": "1.5.49",
   "ReleaseNotes": "🟢 NOVA VIVO 25/11/2022🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -59,7 +59,7 @@
       "Info": "Proxy" 
     },
     {
-"Name": "🟣VIVO - CAIU FRONT CONECTA AQUI 01",
+    "Name": "🟣VIVO - CAIU FRONT CONECTA AQUI 01",
       "FLAG": "vivo",
       "Payload": "GET wss://unpkg.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "unpkg.com",
@@ -97,8 +97,7 @@
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
-     },
-     
+     },  
     {
       "Name": "🟣VIVO - CAIU FRONT CONECTA AQUI 05",
       "FLAG": "vivo",
