@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.52",
+  "Version": "1.5.53",
   "ReleaseNotes": "🟢 NOVA VIVO CDN 25/11/2022🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -38,35 +38,25 @@
     }
   ],
   "Networks": [
-     {
-      "Nome": "🟣 VIVO FRONT CDN 01",
-      "BANDEIRA": "vivo",
+      {
+   "Name": "🟣VIVO FRONT 1",
+      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: le2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SN": "",
+      "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
       "ProxyPort": "80",
-      "Informações": "Proxy"
+      "Info": "Proxy"
     },
     {
-      "Nome": "🟣 VIVO FRONT CDN 02",
-      "BANDEIRA": "vivo",
+   "Name": "🟣VIVO FRONT 2",
+      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: le2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SN": "",
+      "SNI": "",
       "TlsIP": "",
       "ProxyIP": "planosvivointernet.com.br",
       "ProxyPort": "80",
-      "Informações": "Proxy"
-    },
-    {
-      "Nome": "🟣 VIVO FRONT CDN 03",
-      "BANDEIRA": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: le2.wfnet.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SN": "",
-      "TlsIP": "",
-      "ProxyIP": "108.139.166.122",
-      "ProxyPort": "80",
-      "Informações": "Proxy"
+      "Info": "Proxy"
     },
     {
     "Name": "🟣VIVO - CAIU FRONT CONECTA AQUI 01",
