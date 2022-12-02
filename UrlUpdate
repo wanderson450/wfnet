@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.64",
+  "Version": "1.5.65",
   "ReleaseNotes": "🟢 NOVA VIVO OFICIAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -227,56 +227,6 @@
       "ProxyPort": "80",
       "Info": "Direct"
     },
-    {
-     "Name": "Claro CLOUDFRONT",
-       "FLAG": "CLARO",
-       "Payload": "GET wss://d18w37tglmtxe5.cloudfront.net/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "descomplica.com.br",
-       "ProxyPort": "80",
-       "Info": "Proxy"
-     },
-    {
-       "Name": "CLARO TLSWS",
-       "FLAG": "claro",
-       "Payload": "GET wss://gtw-claro.wooza.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-       "SNI": "cookielaw.org",
-       "TlsIP": "104.16.149.64",
-       "ProxyIP": "",
-       "ProxyPort": "443",
-       "Info": "Tlsws"
-     },
-     {
-     "Name": "Claro Modo Direct 1",
-       "FLAG": "CLARO",
-       "Payload": "GET http://brunaclaro.com.br HTTP/1.0[crlf]Host: [app_host]http://brunaclaro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "",
-       "ProxyPort": "80",
-       "Info": "Direct"
-     },
-     {
-       "Name": "Claro Modo Direct 2",
-       "FLAG": "CLARO",
-       "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "",
-       "ProxyPort": "80",
-       "Info": "Direct"
-      },
- {
-       "Name": "Claro Modo Direct 3",
-       "FLAG": "CLARO",
-       "Payload": "GET http://www.claro.com.br HTTP/1.0[crlf]Host: http://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "129.148.44.99",
-       "ProxyPort": "80",
-       "Info": "Direct"
-      },
     {
       "Name": "OI 1",
       "FLAG": "oi",
