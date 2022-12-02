@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.58",
+  "Version": "1.5.59",
   "ReleaseNotes": "🟢 NOVA VIVO OFICIAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -57,6 +57,26 @@
       "ProxyIP": "planosvivointernet.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+{
+            "Name": "VIVO MODO AVIAO",
+      "FLAG": "vivo",
+      "Payload": "GET wss://unpkg.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+        },   
+        {
+"Name": "VIVO CONTROLE",
+      "FLAG": "vivo",
+      "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: xxx.dinhovpn.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "portaljud.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
  { 
 "Name": "📱 VIVO 11",
