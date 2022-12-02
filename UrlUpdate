@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.57",
+  "Version": "1.5.58",
   "ReleaseNotes": "🟢 NOVA VIVO OFICIAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -58,6 +58,17 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+ { 
+"Name": "📱 VIVO 11",
+"FLAG": "vivo",
+"Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.0[crlf]Host: adanet4g.online[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]
+",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "162.159.130.62",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
 {
       "Name": "🟣Vivo Pré",
       "FLAG": "vivo",
