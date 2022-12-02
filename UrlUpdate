@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.67",
+  "Version": "1.5.68",
   "ReleaseNotes": "🟢 NOVA VIVO OFICIAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -196,17 +196,7 @@
      "ProxyIP": "", 
      "ProxyPort": "443", 
      "Info": "Tlsws"  
-}, 
-    {
-      "Name": "𝗖𝗟𝗔𝗥𝗢",
-      "FLAG": "claro",
-      "Payload": "GET wss://d18w37tglmtxe5.cloudfront.net/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "descomplica.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-       },
+},
     {
       "Name": "🟡 OI ON 01",
       "FLAG": "oi",
