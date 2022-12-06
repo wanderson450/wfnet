@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.76",
-  "ReleaseNotes": "🟢 TODAS AS OPERADORAS ONLINE - TODOS DDD 🟢", 
+  "Version": "1.5.77",
+  "ReleaseNotes": "🟢 TODAS AS OPERADORAS ONLINE 🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -98,6 +98,36 @@
 "ProxyPort": "80",
 "Info": "Proxy"
 },
+    {
+     "Name": "🟣VIVO, 🔵TIM E 🔴CLARO 1",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "162.159.130.62",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+     "Name": "🟣VIVO, 🔵TIM E 🔴CLARO 2",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.18.6.41",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+     "Name": "🟣VIVO, 🔵TIM E 🔴CLARO 3",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
 {
      "Name": "🔴 CLARO 01",
        "FLAG": "CLARO",
