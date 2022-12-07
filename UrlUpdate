@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.78",
-  "ReleaseNotes": "🟢 TIM ON🟢", 
+  "Version": "1.5.79",
+  "ReleaseNotes": "🟢 TIM ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -111,7 +111,7 @@
       {
       "Name": "🟦 TIM 02 ",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2a4mkpfc61ak1.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d18w37tglmtxe5.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "99.84.252.128",
