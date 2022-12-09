@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.82",
+  "Version": "1.5.83",
   "ReleaseNotes": "🟢 TIM ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -69,35 +69,195 @@
       "Info": "Proxy"
     },
     {
-"Name": "🟣VIVO 01",
-"FLAG": "vivo",
-"Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "mobilidade.cloud.caixa.gov.br",
-"TlsIP": "162.159.130.62",
-"ProxyIP": "",
-"ProxyPort": "443",
-"Info": "Tlsws"
-},
-{
-"Name": "🟣VIVO 02",
-"FLAG": "vivo",
-"Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "162.159.130.62",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
-{
-"Name": "🟣VIVO 03",
-"FLAG": "vivo",
-"Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "",
-"TlsIP": "mobilidade.cloud.caixa.gov.br",
-"ProxyIP": "162.159.130.62",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
+            "Name": "VIVO NOVA [0]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://server1.www1.v1.laopromo.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep- Vivo[crlf][crlf]",
+            "SNI": "server1.www1.v1.laopromo.com",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO NOVA [1]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://support.moovitapp.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "support.moovitapp.com",
+            "TlsIP": "104.16.51.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [2]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "Atendimento.descomplica.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [3]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://uk.audiobooks.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "uk.audiobooks.com",
+            "TlsIP": "uk.audiobooks.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [4]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://proxy.hmtutors.ga/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "proxy.hmtutors.ga",
+            "TlsIP": "proxy.hmtutors.ga",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [5]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://fitality.gr/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "fitality.gr",
+            "TlsIP": "104.18.6.80",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [6]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://vivoemdia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "vivoemdia.vivo.com.br",
+            "TlsIP": "104.18.6.80",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [7]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://vivoemdia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "vivoemdia.vivo.com.br",
+            "TlsIP": "104.18.7.80",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [8]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "lojaempresas.vivo.com.br",
+            "TlsIP": "104.16.51.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [9]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://duvidas.ampli.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "duvidas.ampli.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [10]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://Atendimento.descomplica.com.br HTTP/1.1[lf]Host:[app_host][lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host:[app_host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Upgrade: HTTP/2, websocket[lf][lf]",
+            "SNI": "Atendimento.descomplica.com.br",
+            "TlsIP": "Atendimento.descomplica.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [11]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "Atendimento.descomplica.com.br",
+            "TlsIP": "Atendimento.descomplica.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [12]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://duvidas.ampli.com.br HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "duvidas.ampli.com.br",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [13]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://www.help.tinder.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "www.help.tinder.com",
+            "TlsIP": "www.help.tinder.com",
+            "ProxyIP": "www.help.tinder.com",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [14]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "Atendimento.descomplica.com.br",
+            "TlsIP": "Atendimento.descomplica.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [15]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: WebSocket[crlf][crlf]",
+            "SNI": "support.deezer.com",
+            "TlsIP": "support.deezer.com",
+            "ProxyIP": "support.deezer.com",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [16]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "104.16.51.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [17]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://ffsupportbd.garena.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "ffsupportbd.garena.com",
+            "TlsIP": "ffsupportbd.garena.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO NOVA [18]🟣",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://support.deezer.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "support.deezer.com",
+            "TlsIP": "support.deezer.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
  {
             "Name": "TIM NOVA [01]🔵",
             "FLAG": "tim",
