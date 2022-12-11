@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.91",
-  "ReleaseNotes": "🟢 VIVO ON -🟢", 
+  "Version": "1.5.92",
+  "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -49,9 +49,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣 VIVO CDN 01",
+      "Name": "🟣 VIVO CDN X ON 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d18w37tglmtxe5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2d1zm950cedw5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
@@ -59,9 +59,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣 VIVO CDN 02",
+      "Name": "🟣 VIVO CDN X ON 02",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d18w37tglmtxe5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2d1zm950cedw5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "planosvivointernet.com.br",
@@ -69,9 +69,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣 VIVO CDN 03",
+      "Name": "🟣 VIVO CDN X ON 03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d18w37tglmtxe5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2d1zm950cedw5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.166.122",
@@ -111,7 +111,7 @@
 {
      "Name": "🔴 CLARO 01",
        "FLAG": "CLARO",
-       "Payload": "GET wss://d18w37tglmtxe5.cloudfront.net/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+       "Payload": "GET wss://d2d1zm950cedw5.cloudfront.net/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
        "SNI": "",
        "TlsIP": "",
        "ProxyIP": "descomplica.com.br",
@@ -121,9 +121,9 @@
      {
     "Name": "🔴 CLARO 02",
     "FLAG": "claro",
-    "Payload": "GET wss://d18w37tglmtxe5.cloudfront.net HTTP/1.1[crlf]Host: pantoja1.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-    "SNI": "d18w37tglmtxe5.cloudfront.net",
-    "TlsIP": "d18w37tglmtxe5.cloudfront.net",
+    "Payload": "GET wss://d2d1zm950cedw5.cloudfront.net HTTP/1.1[crlf]Host: pantoja1.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+    "SNI": "d2d1zm950cedw5.cloudfront.net",
+    "TlsIP": "d2d1zm950cedw5.cloudfront.net",
     "ProxyIP": "",
     "Porta proxy": "443",
     "Info": "Tlsws"
