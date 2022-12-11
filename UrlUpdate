@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.86",
+  "Version": "1.5.87",
   "ReleaseNotes": "🟢 TIM ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -68,7 +68,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-}
+{
         "Name": "Vivo ON☑️",
       "FLAG": "vivo",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
