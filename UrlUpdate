@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.90",
+  "Version": "1.5.91",
   "ReleaseNotes": "🟢 VIVO ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -159,7 +159,7 @@
       "ProxyPort": "",
       "Info": "Tlsws"
       
- }
+ }, 
     {
       "Name": "🟠 OI 03",
       "FLAG": "oi",
