@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.5",
+  "Version": "1.6.6",
   "ReleaseNotes": "🟢 OPERADORAS VIVO -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -118,18 +118,8 @@
             "ProxyPort": "443",
             "Info": "Tlsws"
         },
-{
-     "Name": "🔴 CLARO 01",
-       "FLAG": "CLARO",
-       "Payload": "GET wss://d2d1zm950cedw5.cloudfront.net/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "descomplica.com.br",
-       "ProxyPort": "80",
-       "Info": "Proxy"
-     },
       { 
-            "Name": "📱 CLARO TLSWS 01 📡❤️", 
+            "Name": "🔴 CLARO 01", 
             "FLAG": "claro", 
             "Payload": "BASELINE-CONTROL wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
             "SNI": "mobilidade.cloud.caixa.gov.br", 
@@ -139,7 +129,7 @@
             "Info": "Tlsws" 
         }, 
         { 
-            "Name": "📱 CLARO TLSWS 02 📡❤️", 
+            "Name": "🔴 CLARO 02", 
             "FLAG": "claro", 
             "Payload": "BASELINE-CONTROL wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
             "SNI": "mobilidade.cloud.caixa.gov.br", 
@@ -149,7 +139,7 @@
             "Info": "Tlsws" 
         }, 
         { 
-            "Name": "🔴CLARO TLSWS 02", 
+            "Name": "🔴 CLARO 03", 
             "FLAG": "claro", 
             "Payload": "BASELINE-CONTROL wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
             "SNI": "mobilidade.cloud.caixa.gov.br", 
@@ -159,7 +149,7 @@
             "Info": "Tlsws" 
         }, 
     {
-     "Name": "🔴CLARO caixa",
+     "Name": "🔴 CLARO 04",
       "FLAG": "claro",
       "Payload": "BASELINE-CONTROL wss:\/\/mobilidade.cloud.caixa.gov.br\/ HTTP\/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -168,108 +158,8 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    {
-     "Name": "🔴CLARO paquetes",
-      "FLAG": "claro",
-      "Payload": "GET http://paquetesyrecargas.claro.com.do/odatos?user=PREPAGO HTTP/1.1[crlf]Host: paquetesyrecargas.claro.com.do[crlf][crlf]GET / HTTP/1.1[crlf]Host: paquetesyrecargas.claro.com.do[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "152.67.53.154",
-      "ProxyPort": "80",
-      "Info": "proxy"
-    },
-    {
-     "Name": "🔴CLARO paquetes 2",
-      "FLAG": "claro",
-      "Payload": "GET-CONTROL ws://www.claro.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "179.127.29.112",
-      "ProxyPort": "80",
-      "Info": "proxy"
-    },
 {
-      "Name": "🔴Claro Super",
-      "FLAG": "claro",
-      "Payload": "GET-CONTROL ws://www.claro.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]",
-   "SNI": "www.claro.com.br",
-   "TlsIP": "www.claro.com.br",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-},
-{
-      "Name": "🔴CLARO Dropbear",
-      "FLAG": "CLARO",
-      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "191.234.195.150",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
-    },
-{
-      "Name": "CLARO NEYMAR 01 🔴",
-      "FLAG": "CLARO",
-      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "191.252.195.117",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "CLARO NEYMAR 02 🔴",
-      "FLAG": "CLARO",
-      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "191.252.195.117",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-      "Name": "CLARO NEYMAR 03 🔴",
-      "FLAG": "CLARO",
-      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "191.252.195.117",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-"Name": "CLARO | DDDs 02 🔴",
-"FLAG": "claro",
-"Payload": "GET http://faq.claro.com.br HTTP/1.0[crlf]Host: Herakty.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "191.252.195.117",
-"ProxyPort": "80",
-"Info": "Direct"
-},
-{
-"Name": "CLARO | DDDs 04 🔴",
-"FLAG": "claro",
-"Payload": "GET http://www.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "www.claro.com.br",
-"ProxyPort": "80",
-"Info": "Direct"
-},
-{
-"Name": "CLARO | DDDs 05 🔴",
-"FLAG": "claro",
-"Payload": "GET http://bonuz.claro.com.br HTTP/1.0[crlf]Host: http://contaonline2.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "20.197.242.74",
-"ProxyPort": "80",
-"Info": "Direct"
-},
-{
- "Name": "🔴CLARO PREZÃO E CONTROLE🔴",
+ "Name": "🔴 CLARO 05",
  "FLAG": "claro.png",
  "Payload": "",
  "SNI": "api.web.whatsapp.com",
@@ -279,7 +169,7 @@
  "Info": "Ssl"
 },
 {
- "Name": "🔴CLARO MIX E PÓS🔴",
+ "Name": "🔴 CLARO 06",
  "FLAG": "claro.png",
  "Payload": "",
  "SNI": "twitter.com",
@@ -289,39 +179,9 @@
  "Info": "Ssl"
 },
 {
-      "Name": "🔴 CLARO MODO AVIÃO 🚀",
+      "Name": "🔴 CLARO 07 - MODO AVIÃO",
       "FLAG": "claro",
       "Payload": "GET http://m.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "191.252.195.117",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-    {
-      "Name": "🔴 CLARO DIRECT 🔴",
-      "FLAG": "claro",
-      "Payload": "GET http://ecob.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "191.252.195.117",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-    {
-      "Name": "🔴 CLARO ALGUNS DDDs 📲",
-      "FLAG": "claro",
-      "Payload": "GET http://bonuz.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "191.252.195.117",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-    {
-      "Name": "🔴 CLARO ALGUNS DDDs 02📲",
-      "FLAG": "claro",
-      "Payload": "GET http://api.commandcenter.claro.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "191.252.195.117",
