@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.96",
+  "Version": "1.5.97",
   "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,6 +98,86 @@
       "ProxyIP": "108.139.166.122",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+{
+"Name": "🔵TIM CREDITOS EXPIRADOS🔵",
+      "FLAG": "tim",
+      "Payload": "BASELINE-CONTROL wss://songbird.cardinalcommerce.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "songbird.cardinalcommerce.com",
+      "TlsIP": "198.217.251.251",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+{
+      "Name": "🔵TIM SERÁ QUE É VOCÊ?2🔵",
+      "FLAG": "tim",
+      "Payload": "BASELINE-CONTROL wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "api.sandbox.c6bank.com.br",
+      "TlsIP": "104.18.28.182",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM SERÁ QUE É VOCÊ? 3🔵",
+      "FLAG": "tim",
+      "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "workplaceservices.surveymonkey.com",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM DEZEMBRO 1🔵",
+      "FLAG": "tim",
+      "Payload": "BASELINE-CONTROL wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "api.sandbox.c6bank.com.br",
+      "TlsIP": "104.18.28.182",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🧛VIVO DE NOVO🧛 ​",
+      "FLAG": "vivo",
+      "Payload": "BASELINE-CONTROL wss://itsupport.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "itsupport.surveymonkey.com",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🧛ESTOU VIVO E NAO MORTO🧛​",
+      "FLAG": "vivo",
+      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "smainfo.surveymonkey.com",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🧛VAMPIRO VIVO 3🧛​",
+      "FLAG": "vivo",
+      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "workplaceservices.surveymonkey.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+     {
+       "Name": "🧛TIM VAMPIRO E VIVO 🧛​",
+      "FLAG": "tim",
+      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "workplaceservices.surveymonkey.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"  
     },
 {
       "Name": "VIVO BEDHOSTING",
