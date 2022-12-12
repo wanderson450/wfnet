@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.99",
+  "Version": "1.6.0",
   "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -49,6 +49,46 @@
      "ProxyPort": "443", 
      "Info": "Tlsws" 
       },
+       {
+            "Nome": "📱 VIVO PROXY 01 📡💜",
+            "BANDEIRA": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Atualização: Websocket[crlf]Conexão: Atualização[crlf][crlf]",
+            "SN": "",
+            "TlsIP": "",
+            "ProxyIP": "198.217.251.250",
+            "ProxyPort": "80",
+            "Informações": "Proxy"
+        },
+        {
+            "Nome": "📱 VIVO PROXY 02 📡💜",
+            "BANDEIRA": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Atualização: Websocket[crlf]Conexão: Atualização[crlf][crlf]",
+            "SN": "",
+            "TlsIP": "",
+            "ProxyIP": "162.159.135.63",
+            "ProxyPort": "80",
+            "Informações": "Proxy"
+        },
+        {
+            "Nome": "📱 VIVO TLSWS 01 📡💜",
+            "BANDEIRA": "vivo",
+            "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origem: https://www.google.com, http://www.google .com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Atualização: Websocket[crlf]Conexão: Keep-Alive, Upgrade[crlf][crlf] ",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "104.16.51.111",
+            "IP de Proxy": "",
+            "ProxyPort": "443",
+            "Informações": "Tlsws"
+        },
+        {
+            "Nome": "📱 VIVO TLSWS 02 📡💜",
+            "BANDEIRA": "vivo",
+            "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origem: https://www.google.com, http://www.google .com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Atualização: Websocket[crlf]Conexão: Keep-Alive, Upgrade[crlf][crlf] ",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "104.16.53.111",
+            "IP de Proxy": "",
+            "ProxyPort": "443",
+            "Informações": "Tlsws"
+        },
 {
       "Name": "╰┈[☞>📱𝗩𝗜𝗩𝗢 𝟱𝗚 𝟬4 📡 🟢",
       "FLAG": "vivo.png",
