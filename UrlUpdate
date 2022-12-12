@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.94",
+  "Version": "1.5.95",
   "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -99,77 +99,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-    {
-      "Name": "📱VIVO AVIAO 01📡 💙💜",
+{
+      "Name": "VIVO BEDHOSTING",
       "FLAG": "vivo",
-      "Payload": "MAUVADAO wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
+      "Payload": "BEDHOSTING-CDN wss://workplaceservices.surveymonkey.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://bedhosting.com.br, https://bedhosting.com.br[crlf]User-Agent: Googlebot/2.1 (+https://bedhosting.com.br)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "workplaceservices.surveymonkey.com",
+      "TlsIP": "104.16.53.111",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
-      },  
-     {
-            "Name": "📱VIVO AVIAO 02📡 💙💜 02",
-            "FLAG": "vivo",
-            "Payload": "MAUVADAO wss://unpkg.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]",
-            "SNI": "unpkg.com",
-            "TlsIP": "104.16.124.175",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-  },
-
- { 
-      "Name": "🟣╰┈[?> VIVO Wazze 0", 
-      "FLAG": "vivo",
-      "Payload": "MAUVADAO wss://go.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]", 
-      "SNI": "go.kaltura.com", 
-      "TlsIP": "104.17.70.206", 
-      "ProxyIP": "104.17.70.206", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },
-   { 
-      "Name": "🟣╰┈[?> VIVO Wazze 1", 
-      "FLAG": "vivo",
-      "Payload": "MAUVADAO wss://go.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]", 
-      "SNI": "go.kaltura.com", 
-      "TlsIP": "104.17.71.206", 
-      "ProxyIP": "104.17.71.206", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },
-   { 
-      "Name": "🟣╰┈[?> VIVO Wazze 2", 
-      "FLAG": "vivo",
-      "Payload": "MAUVADAO wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]", 
-      "SNI": "ct.livestream.com", 
-      "TlsIP": "104.17.72.206", 
-      "ProxyIP": "104.17.72.206", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },    
-    { 
-      "Name": "🟣╰┈[?> VIVO Wazze 3", 
-      "FLAG": "vivo",
-      "Payload": "MAUVADAO wss://url.data.ai/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]", 
-      "SNI": "url.data.ai", 
-      "TlsIP": "104.17.73.206", 
-      "ProxyIP": "104.17.73.206", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },    
-  { 
-      "Name": "🟣╰┈[?> VIVO Wazze 4", 
-      "FLAG": "vivo",
-      "Payload": "MAUVADAO wss://url.data.ai/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: MAUVADAO[crlf]X-Forward-Host: MAUVADAO[crlf]Connection: Keep-Alive[crlf]Referer: MAUVADAO[crlf][crlf]", 
-      "SNI": "url.data.ai", 
-      "TlsIP": "104.17.74.206", 
-      "ProxyIP": "104.17.74.206", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },    
+      "Info": "Tlsws"    
+   }
 {
             "Name": "TIM NOVA [01]🔵",
             "FLAG": "tim",
