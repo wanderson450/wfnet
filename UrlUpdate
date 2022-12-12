@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.6",
+  "Version": "1.6.7",
   "ReleaseNotes": "🟢 OPERADORAS VIVO -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -38,7 +38,27 @@
     }
   ],
   "Networks": [
-       { 
+       {
+            "Name": "📱 VIVO TLSWS 01 📡💜",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "104.16.51.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "📱 VIVO TLSWS 02 📡💜",
+            "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+{ 
             "Name": "📱 VIVO TLSWS 01 📡💜", 
             "FLAG": "vivo", 
             "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
