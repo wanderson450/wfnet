@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.92",
+  "Version": "1.5.93",
   "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -38,6 +38,27 @@
     }
   ],
   "Networks": [
+{ 
+     "Name": "1️⃣ VIVO ⚪", 
+     "FLAG": "vivo", 
+     "Payload": "BASELINE-CONTROL wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-                  
+      Alive[crlf][crlf]", 
+     "SNI": "Atendimento.descomplica.com.br", 
+     "TlsIP": "Atendimento.descomplica.com.br", 
+     "ProxyIP": "", 
+     "ProxyPort": "443", 
+     "Info": "Tlsws" 
+      },
+{
+      "Name": "╰┈[☞>𝗩𝗜𝗩𝗢 𝟱𝗚📡 02 🟣",
+      "FLAG": "vivo",
+      "Payload": "BASELINE-CONTROL wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "lojaempresas.vivo.com.br",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
     {
      "Name": "🟣VIVO todos os ddds",
       "FLAG": "vivo",
