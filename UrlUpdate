@@ -1,6 +1,6 @@
 {
-  "Version": "1.6.1",
-  "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
+  "Version": "1.6.2",
+  "ReleaseNotes": "🟢 OPERADORAS VIVO -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -38,39 +38,8 @@
     }
   ],
   "Networks": [
-{ 
-     "Name": "1️⃣ VIVO ⚪", 
-     "FLAG": "vivo", 
-     "Payload": "BASELINE-CONTROL wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-                  
-      Alive[crlf][crlf]", 
-     "SNI": "Atendimento.descomplica.com.br", 
-     "TlsIP": "Atendimento.descomplica.com.br", 
-     "ProxyIP": "", 
-     "ProxyPort": "443", 
-     "Info": "Tlsws" 
-      },
-      { 
-            "Name": "📱 VIVO PROXY 01 📡💜", 
-            "FLAG": "vivo", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]", 
-            "SNI": "", 
-            "TlsIP": "", 
-            "ProxyIP": "198.217.251.250", 
-            "ProxyPort": "80", 
-            "Info": "Proxy" 
-        }, 
         { 
-            "Name": "📱 VIVO PROXY 02 📡💜", 
-            "FLAG": "vivo", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]", 
-            "SNI": "", 
-            "TlsIP": "", 
-            "ProxyIP": "162.159.135.63", 
-            "ProxyPort": "80", 
-            "Info": "Proxy" 
-        }, 
-        { 
-            "Name": "📱 VIVO TLSWS 01 📡💜", 
+            "Name": "📱 VIVO 01 📡💜", 
             "FLAG": "vivo", 
             "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
             "SNI": "workplaceservices.surveymonkey.com", 
@@ -80,155 +49,15 @@
             "Info": "Tlsws" 
         }, 
         { 
-            "Name": "📱 VIVO TLSWS 02 📡💜", 
+            "Name": "📱 VIVO 02 📡💜", 
             "FLAG": "vivo", 
             "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]", 
             "SNI": "workplaceservices.surveymonkey.com", 
             "TlsIP": "104.16.53.111", 
             "ProxyIP": "", 
             "ProxyPort": "443", 
-            "Info": "Tlsws" 
-        }, 
-{
-      "Name": "╰┈[☞>𝗩𝗜𝗩𝗢 𝟱𝗚📡 02 🟣",
-      "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL wss://lojaempresas.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "lojaempresas.vivo.com.br",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-   },
-    {
-     "Name": "🟣VIVO todos os ddds",
-      "FLAG": "vivo",
-      "Payload": "CONNECT-SI wss://celular.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "162.159.135.63",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣 VIVO CDN X ON 01",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2d1zm950cedw5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣 VIVO CDN X ON 02",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2d1zm950cedw5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "planosvivointernet.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣 VIVO CDN X ON 03",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2d1zm950cedw5.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "108.139.166.122",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-{
-"Name": "🔵TIM CREDITOS EXPIRADOS🔵",
-      "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://songbird.cardinalcommerce.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "songbird.cardinalcommerce.com",
-      "TlsIP": "198.217.251.251",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-},
-{
-      "Name": "🔵TIM SERÁ QUE É VOCÊ?2🔵",
-      "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "api.sandbox.c6bank.com.br",
-      "TlsIP": "104.18.28.182",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM SERÁ QUE É VOCÊ? 3🔵",
-      "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://workplaceservices.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "workplaceservices.surveymonkey.com",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM DEZEMBRO 1🔵",
-      "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "api.sandbox.c6bank.com.br",
-      "TlsIP": "104.18.28.182",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🧛VIVO DE NOVO🧛 ​",
-      "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL wss://itsupport.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "itsupport.surveymonkey.com",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🧛ESTOU VIVO E NAO MORTO🧛​",
-      "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "smainfo.surveymonkey.com",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🧛VAMPIRO VIVO 3🧛​",
-      "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "workplaceservices.surveymonkey.com",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-     {
-       "Name": "🧛TIM VAMPIRO E VIVO 🧛​",
-      "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: painelweb123.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-      "SNI": "workplaceservices.surveymonkey.com",
-      "TlsIP": "104.16.51.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"  
-    },
-{
-      "Name": "VIVO BEDHOSTING",
-      "FLAG": "vivo",
-      "Payload": "BEDHOSTING-CDN wss://workplaceservices.surveymonkey.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://bedhosting.com.br, https://bedhosting.com.br[crlf]User-Agent: Googlebot/2.1 (+https://bedhosting.com.br)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-      "SNI": "workplaceservices.surveymonkey.com",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"    
-   },
+            "Info": "Tlsws"
+            },
 {
             "Name": "TIM NOVA [01]🔵",
             "FLAG": "tim",
