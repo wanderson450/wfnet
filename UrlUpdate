@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.95",
+  "Version": "1.5.96",
   "ReleaseNotes": "🟢 OPERADORAS ON -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -108,7 +108,7 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"    
-   }
+   },
 {
             "Name": "TIM NOVA [01]🔵",
             "FLAG": "tim",
