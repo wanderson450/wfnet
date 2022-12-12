@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.3",
+  "Version": "1.6.4",
   "ReleaseNotes": "🟢 OPERADORAS VIVO -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -88,6 +88,127 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+       {
+      "Name": "🟣vivo top",
+      "FLAG": "vivo",
+      "Payload": "BASELINE-CONTROL wss://itsupport.surveymonkey.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+      "SNI": "itsupport.surveymonkey.com",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟣VIVO E 🔴CLARO",
+      "FLAG": "vivo",
+      "Payload": "BASELINE-CONTROL wss:\/\/mobilidade.cloud.caixa.gov.br\/ HTTP\/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "162.159.130.62",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+  {
+      "Name": "🔵TIM E 🟣VIVO",
+      "FLAG": "tim",
+      "Payload": "BASELINE-CONTROL wss://smainfo.surveymonkey.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket;Access-Control-Request-Method: BASELINE-CONTROL;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+      "SNI": "smainfo.surveymonkey.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+     "Name": "🟣VIVO todos os ddds",
+      "FLAG": "vivo",
+      "Payload": "CONNECT-SI wss://celular.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "162.159.135.63",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+        {
+            "Name": "🟣VIVO 1 CFLARE",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "198.217.251.250",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🟣VIVO 1 CFLARE",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "198.217.251.250",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🟣VIVO 2 CFLARE",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "162.159.135.63",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🟣VIVO 3 CFLARE",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.53.111 ",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🟣VIVO 4 CFLARE",
+            "FLAG": "vivo",
+            "Payload": "HEAD / HTTP/1.1 Host: [app_host] Upgrade: Websocket Connection: Keep-Alive[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.53.111 ",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+   {
+      "Name": "VIVO teste 01", 
+      "FLAG": "vivo", 
+      "Payload": "GET wss://meuvivo.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
+      "SNI": "meuvivo.vivo.com.br", 
+      "TlsIP": "162.159.136.63", 
+      "ProxyIP": "", 
+      "ProxyPort": "", 
+      "Info": "Tlsws"
+     },
+       {
+       "Name": "VIVO MOBILIDADE 1",
+       "FLAG": "vivo",
+       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "162.159.130.62",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+       },
+       {
+       "Name": "VIVO MOBILIDADE 2",
+       "FLAG": "vivo",
+       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "mobilidade.cloud.caixa.gov.br",
+       "ProxyIP": "162.159.130.62",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+
+   },
 {
             "Name": "TIM NOVA [01]🔵",
             "FLAG": "tim",
