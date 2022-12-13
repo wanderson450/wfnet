@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.15",
+  "Version": "1.6.16",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI ON🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,15 +39,15 @@
   ],
   "Networks": [
       {
-      "Name": "🟣 VIVO FRONT FINAL 00",
-      "FLAG": "vivo",
-      "Payload": "JRTNET- wss://help.cloudflareclient.com HTTP/1.1\nHost: wfnet.xyz\nUpgrade: ws\n\n",
-      "SNI": "help.cloudflareclient.com",
-      "TlsIP": "",
-      "ProxyIP": "help.cloudflareclient.com",
-      "ProxyPort": "443",
-      "Info": "Proxy"
-    },
+          "Name": "✅️VIVO ✅️",
+          "FLAG": "vivo",
+          "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+          "SNI": "[app_host]",
+          "TlsIP": "104.16.51.111",
+          "ProxyIP": "",
+          "ProxyPort": "",
+          "Info": "Tlsws"
+          },
      {
       "Name": "🟣 VIVO FRONT FINAL 01",
       "FLAG": "vivo",
@@ -78,6 +78,26 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    { 
+     "Name": "TIM 01", 
+     "FLAG": "tim", 
+     "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+     "SNI": "", 
+     "TlsIP": "", 
+     "ProxyIP": "99.84.252.128", 
+     "ProxyPort": "80", 
+     "Info": "Proxy" 
+    },
+    {
+      "Name": "💙𝐓𝐈𝐌 02",
+      "FLAG": "tim",
+      "Payload": "POLL [method] [protocol][crlf]Host: [rotate=mobile.c6bank.com.br][crlf]",
+      "SNI": "ajuda.c6bank.com.br",
+      "TlsIP": "104.19.239.25",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
 {
      "Name": "🔴 CLARO 01",
        "FLAG": "CLARO",
