@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.14",
+  "Version": "1.6.15",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI ON🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -39,6 +39,16 @@
   ],
   "Networks": [
       {
+      "Name": "🟣 VIVO FRONT FINAL 00",
+      "FLAG": "vivo",
+      "Payload": "JRTNET- wss://help.cloudflareclient.com HTTP/1.1\nHost: wfnet.xyz\nUpgrade: ws\n\n",
+      "SNI": "help.cloudflareclient.com",
+      "TlsIP": "",
+      "ProxyIP": "help.cloudflareclient.com",
+      "ProxyPort": "443",
+      "Info": "Proxy"
+    },
+     {
       "Name": "🟣 VIVO FRONT FINAL 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
