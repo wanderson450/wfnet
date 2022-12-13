@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.10",
+  "Version": "1.6.11",
   "ReleaseNotes": "🟢 OPERADORAS VIVO IPV4/IPV6 -🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -38,6 +38,16 @@
     }
   ],
   "Networks": [
+       { 
+      "Name": "🚑TIM DG",
+      "FLAG": "tim",
+      "Payload": "DG-CONEXOES wss://songbird.cardinalcommerce.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "songbird.cardinalcommerce.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Tlsws"
+},
        {
             "Name": "📱 VIVO IPV4/IPV6 - 01 📡💜",
             "FLAG": "vivo",
