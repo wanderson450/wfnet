@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.20",
+  "Version": "1.6.21",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI ON - NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,6 +98,16 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   }, 
+  {
+         "Name":" TIM PRE",
+         "FLAG":"tim",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"99.84.252.128",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
   { 
      "Name": "🔵TIM FRONT", 
      "FLAG": "tim", 
