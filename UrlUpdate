@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.18",
+  "Version": "1.6.19",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI ON - NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,6 +98,86 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   }, 
+  {
+      "Name": "🔵TIM FRONT 1",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "pos.tim.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },  
+{
+      "Name": "🔵TIM FRONT 2",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "pos.tim.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },  
+{
+      "Name": "🔵TIM FRONT 3",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "pos.tim.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },  
+{
+      "Name": "🔵TIM FRONT 4",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "pos.tim.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+  },
+{
+"Name": "🔵TIM FRONT 5",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "18.64.174.27",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🔵TIM FRONT 6",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "pos.tim.com.br",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+      "Name": "🔵TIM FRONT 7",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "18.64.174.27",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },  
+{
+      "Name": "🔵TIM FRONT 8",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "18.64.174.27",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },  
    {
       "Name": "🟠 OI NATAL 01",
       "FLAG": "oi",
