@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.16",
+  "Version": "1.6.17",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI ON🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -77,6 +77,36 @@
       "ProxyIP": "108.139.166.122",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+    {
+      "Name": "🟣Conexão[V1]",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "d11qa7a7nktidz.cloudfront.net",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟣Conexão[V2]",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "d11qa7a7nktidz.cloudfront.net",
+      "TlsIP": "",
+      "ProxyIP": "live.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🔴CLARO CLARO [01]",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "d11qa7a7nktidz.cloudfront.net",
+      "TlsIP": "d11qa7a7nktidz.cloudfront.net",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     { 
      "Name": "TIM 01", 
