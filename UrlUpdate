@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.29",
+  "Version": "1.6.30",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI E TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -78,6 +78,112 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    {
+         "Nome":"🟣Vivo ON",
+         "FLAG":"vivo",
+         "Payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Atualização: websocket[crlf][crlf]",
+         "SNI":"[app_host]",
+         "TlsIP":"",
+         "ProxyIP":"104.16.53.111",
+         "ProxyPort":"80",
+         "Informações":"Proxy"
+      },
+        {
+            "Nome": "🟣 VIVO Proxy 1",
+            "BANDEIRA": "vivo",
+            "Payload": "GET-CONTROL / HTTP/1.1[crlf]Host: [app_host][crlf]Atualização: websocket[crlf][crlf]",
+            "SN": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Informações": "Proxy"
+        },
+
+{
+"Nome": "🟣VIVO proxy 2",
+"BANDEIRA": "vivo",
+"Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:[app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin : *;Save-Data: não;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests : 1/n/n[crlf][crlf]",
+"SN": "",
+"TlsIP": "",
+"ProxyIP": "104.16.53.111",
+"ProxyPort": "80",
+"Informações": "Proxy"
+},
+
+{
+"Nome": "🟣 VIVO 443",
+"BANDEIRA": "Vivo",
+"Payload": "GET ws://gc.pitbullnet.online HTTP/1.1[crlf]Host: itsupport.surveymonkey.com[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+"SNI": "gc.pitbullnet.online",
+TlsIP": "",
+"ProxyIP": "104.16.51.111",
+"ProxyPort": "443",
+"Informações": "Proxy"
+},
+
+
+          {
+            "Nome": "🟣 VIVO TLSWS",
+            "BANDEIRA": "vivo",
+            "Payload": "PROXY UDP://gc.pitbullnet.online HTTP/1.1[crlf]Host: null[crlf]Upgrade: wss[crlf][crlf]",
+            "SNI": "workplaceservices.surveymonkey.com",
+            "TlsIP": "gc.pitbullnet.online",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Informações": "Proxy"
+        },
+        {
+            "Nome": "🔵 TIM CDN 01",
+            "BANDEIRA": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net [crlf]Connection:Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "d11qa7a7nktidz.cloudfront.net",
+            "TlsIP": "13.226.52.28",
+            "ProxyIP": "13.226.52.28",
+            "ProxyPort": "443",
+            "Informações": "Tlsws"
+        },
+        {
+            "Nome": "🔵 TIM CDN 02",
+            "BANDEIRA": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net [crlf]Conexão: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SN": "",
+            "TlsIP": "",
+            "ProxyIP": "65.8.248.59",
+            "ProxyPort": "80",
+            "Informações": "Proxy"
+        },
+    {
+      "Nome": "🔵 TIM Proxy 🇧🇷",  
+      "BANDEIRA": "tim",  
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SN": "",  
+      "TlsIP": "",  
+      "ProxyIP": "99.84.252.128",  
+      "ProxyPort": "80",  
+      "Informações": "Proxy"
+    },
+    
+      {
+      "Nome": "🔵 TIM CREDITO VALIDO 1",
+      "BANDEIRA": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "d11qa7a7nktidz.cloudfront.net",
+      "TlsIP": "",
+      "ProxyIP": "18.64.174.115",
+      "ProxyPort": "80",
+      "Informações": "Proxy"
+      },
+      {
+     "Nome": "🔵 TIM CREDITO VALIDO 2",
+     "BANDEIRA": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+     "SNI": "d11qa7a7nktidz.cloudfront.net",
+     "TlsIP": "",
+     "ProxyIP": "99.84.252.128",
+     "ProxyPort": "80",
+     "Informações": "Proxy"
+      },
+
 {
      "Name": "🔴 CLARO NATAL 01",
        "FLAG": "CLARO",
@@ -98,6 +204,16 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   },
+  {
+      "Nome": "🔴 CLARO CDN 1",
+      "BANDEIRA": "claro",
+      "Payload": "GET wss://d11qa7a7nktidz.cloudfront.net: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SN": "",
+      "TlsIP": "",
+      "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
+      "ProxyPort": "80",
+      "Informações": "Proxy"
+    },
    {
       "Name": "🟠 OI NATAL 01",
       "FLAG": "oi",
