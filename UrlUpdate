@@ -1,6 +1,6 @@
 {
-  "Version": "1.6.25",
-  "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI ON NATAL🟢", 
+  "Version": "1.6.26",
+  "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI E TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
   "EmailFeedback": "wandersonfrancisco.2000@outlook.com",
@@ -79,12 +79,22 @@
       "Info": "Proxy"
     },
 {
-"Name": "TIM ON ✅   ",
+     "Name": "TIM01",
+      "FLAG": "tim",
+       "Payload": "HEAD / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",     
+       "SNI": "",
+       "TlsIP": "contratecontrole.tim.com.br",
+       "ProxyIP": "contratecontrole.tim.com.br",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+}, 
+   {
+"Name": "TIM 02",
 "FLAG": "tim",
-"Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
-"SNI": "209.14.68.56",
-"TlsIP": "209.14.68.56",
-"ProxyIP": "209.14.68.56",
+"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "65.8.248.59",
 "ProxyPort": "80",
 "Info": "Proxy"
 },
