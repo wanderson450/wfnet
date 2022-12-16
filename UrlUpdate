@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.32",
+  "Version": "1.6.33",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI E TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,6 +98,46 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   },
+  {
+     "Name": "TIM FRONT 01",
+      "FLAG": "tim",
+       "Payload": "HEAD / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",     
+       "SNI": "",
+       "TlsIP": "contratecontrole.tim.com.br",
+       "ProxyIP": "contratecontrole.tim.com.br",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+}, 
+   {
+"Name": "TIM FRONT 02",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "65.8.248.59",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+      "Name": "TIM e VIVO TOP 1",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: wfnet.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "admonline.tk",
+           "TlsIP": "api.sandbox.c6bank.com.br",
+           "ProxyIP": "api.sandbox.c6bank.com.br",
+            "ProxyPort": "443",
+           "Info": "Proxy"
+    },
+    {
+      "Name": "TIM e VIVO TOP 2",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: wfnet.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "wfnet.xyz",
+           "TlsIP": "api.sandbox.c6bank.com.br",
+           "ProxyIP": "api.sandbox.c6bank.com.br",
+            "ProxyPort": "443",
+           "Info": "Proxy"
+        },
   {
             "Name": "🔵 TIM CDN 01",
             "FLAG": "tim",
