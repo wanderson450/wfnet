@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.28",
+  "Version": "1.6.29",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI E TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -78,16 +78,6 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-{
-     "Name": "TIM 01",
-      "FLAG": "tim",
-       "Payload": "HEAD / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",     
-       "SNI": "",
-       "TlsIP": "contratecontrole.tim.com.br",
-       "ProxyIP": "contratecontrole.tim.com.br",
-       "ProxyPort": "80",
-       "Info": "Proxy"
-},
 {
      "Name": "🔴 CLARO NATAL 01",
        "FLAG": "CLARO",
