@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.38",
+  "Version": "1.6.39",
   "ReleaseNotes": "🟢 OPERADORAS TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,26 +98,6 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   },
-      {
-         "Name":"🔥 TIM [FRONT] 06 🔵",
-         "FLAG":"tim",
-         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"",
-         "TlsIP":"",
-         "ProxyIP":"13.226.52.30",
-         "ProxyPort":"80",
-         "Info":"Proxy"
-      },
-{
-"Name": "🔥 TIM [FRONT] 07 🔵",
-"FLAG": "tim",
-"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]connection:Upgrade:[crlf]User-Agent:[ua][crlf]Upgrade: websocket[crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "18.64.174.27",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
 {
 "Name": "🔥 TIM [FRONT] 08 🔵",
 "FLAG": "tim",
@@ -138,16 +118,6 @@
        "ProxyPort": "80", 
       "Info": "Proxy" 
     },
-{
-         "Name":"🔥 TIM [FRONT] 10 🔵",
-         "FLAG":"tim",
-         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"",
-         "TlsIP":"",
-         "ProxyIP":"18.64.174.88",
-         "ProxyPort":"80",
-         "Info":"Proxy"
-      },
 {
       "Name": "🟡 OI 1",
       "FLAG": "oi",
