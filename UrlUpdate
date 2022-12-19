@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.34",
+  "Version": "1.6.35",
   "ReleaseNotes": "🟢 OPERADORAS VIVO CLARO OI E TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,6 +98,106 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   },
+  { 
+      "Name": "🔥 TIM [FRONT] 01 🔵",
+      "FLAG": "tim", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+       "ProxyIP": "99.84.252.105", 
+       "ProxyPort": "80", 
+      "Info": "Proxy" 
+    },
+{
+         "Name":"🔥 TIM [FRONT] 02 🔵",
+         "FLAG":"tim",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"108.139.134.108",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
+      {
+         "Name":"🔥 TIM [FRONT] 03 🔵",
+         "FLAG":"tim",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"contratecontrole.tim.com.br",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
+{
+      "Name": "🔥 TIM [FRONT] 04 🔵",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "d11qa7a7nktidz.cloudfront.net",
+      "TlsIP": "99.84.252.128",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+      {
+         "Name":"🔥 TIM [FRONT] 05 🔵",
+         "FLAG":"tim",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"99.84.252.105",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
+      {
+         "Name":"🔥 TIM [FRONT] 06 🔵",
+         "FLAG":"tim",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"13.226.52.30",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
+{
+"Name": "🔥 TIM [FRONT] 07 🔵",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]connection:Upgrade:[crlf]User-Agent:[ua][crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "18.64.174.27",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🔥 TIM [FRONT] 08 🔵",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]connection:Upgrade:[crlf]User-Agent:[ua][crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "13.226.52.28",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{ 
+      "Name": "🔥 TIM [FRONT] 09 🔵",
+      "FLAG": "tim", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+       "ProxyIP": "18.64.174.70", 
+       "ProxyPort": "80", 
+      "Info": "Proxy" 
+    },
+{
+         "Name":"🔥 TIM [FRONT] 10 🔵",
+         "FLAG":"tim",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"18.64.174.88",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
   {
      "Name": "TIM FRONT 01",
       "FLAG": "tim",
