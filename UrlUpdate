@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.36",
+  "Version": "1.6.37",
   "ReleaseNotes": "🟢 OPERADORAS TIM ON NATAL🟢", 
   "UrlUpdate": "https://wanderson450.github.io/wfnet/UrlUpdate",
   "Sms": "https://wanderson450.github.io/wfnet/UrlSms",
@@ -98,36 +98,6 @@
     "Porta proxy": "443",
     "Info": "Tlsws"
   },
-  { 
-      "Name": "🔥 TIM [FRONT] 01 🔵",
-      "FLAG": "tim", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-       "ProxyIP": "99.84.252.105", 
-       "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-{
-         "Name":"🔥 TIM [FRONT] 02 🔵",
-         "FLAG":"tim",
-         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"",
-         "TlsIP":"",
-         "ProxyIP":"108.139.134.108",
-         "ProxyPort":"80",
-         "Info":"Proxy"
-      },
-      {
-         "Name":"🔥 TIM [FRONT] 03 🔵",
-         "FLAG":"tim",
-         "Payload":"GET / HTTP/1.1[crlf]Host: d11qa7a7nktidz.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-         "SNI":"",
-         "TlsIP":"",
-         "ProxyIP":"contratecontrole.tim.com.br",
-         "ProxyPort":"80",
-         "Info":"Proxy"
-      },
 {
       "Name": "🔥 TIM [FRONT] 04 🔵",
       "FLAG": "tim",
